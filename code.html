@@ -1,0 +1,1926 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="pt-BR"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_dashboard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {"darkMode":"class","theme":{"extend":{"colors":{"outline-variant":"#3c4a42","on-tertiary-fixed":"#002117","on-tertiary-container":"#004231","primary":"#4edea3","secondary-container":"#00bd85","on-error":"#690005","tertiary-fixed-dim":"#95d3ba","on-surface":"#dde3ec","secondary-fixed-dim":"#45dfa4","on-tertiary":"#003829","on-tertiary-fixed-variant":"#0b513d","surface-container-lowest":"#090f15","on-secondary-container":"#00452e","surface-container-highest":"#2f353c","on-background":"#dde3ec","on-error-container":"#ffdad6","on-primary-fixed":"#002113","secondary":"#45dfa4","surface-dim":"#0e141a","inverse-surface":"#dde3ec","secondary-fixed":"#68fcbf","on-primary":"#003824","tertiary":"#95d3ba","primary-container":"#10b981","surface-container":"#1a2027","on-secondary-fixed-variant":"#005137","surface-variant":"#2f353c","primary-fixed":"#6ffbbe","on-primary-fixed-variant":"#005236","inverse-on-surface":"#2b3138","tertiary-fixed":"#b0f0d6","tertiary-container":"#71af97","outline":"#86948a","on-surface-variant":"#bbcabf","on-secondary-fixed":"#002114","on-secondary":"#003825","surface-bright":"#343a41","surface-container-low":"#161c22","primary-fixed-dim":"#4edea3","error-container":"#93000a","on-primary-container":"#00422b","surface-container-high":"#252b31","background":"#0e141a","surface-tint":"#4edea3","error":"#ffb4ab","inverse-primary":"#006c49","surface":"#0e141a"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"space-sm":"0.5rem","gutter":"1.5rem","gutter-sm":"1rem","space-xs":"0.25rem","margin":"2rem","space-lg":"1.5rem","margin-mobile":"1rem","space-2xl":"3rem","gutter-lg":"2rem","space-md":"1rem","space-xl":"2rem"},"fontFamily":{"body-md":["Plus Jakarta Sans"],"headline-xl":["Plus Jakarta Sans"],"label-md":["Plus Jakarta Sans"],"title-sm":["Plus Jakarta Sans"],"display-lg":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"headline-xl-mobile":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"caption":["Plus Jakarta Sans"]},"fontSize":{"body-md":["0.9375rem",{"lineHeight":"1.5rem","fontWeight":"400"}],"headline-xl":["2.25rem",{"lineHeight":"2.75rem","letterSpacing":"-0.02em","fontWeight":"700"}],"label-md":["0.875rem",{"lineHeight":"1.25rem","letterSpacing":"0.01em","fontWeight":"500"}],"title-sm":["1rem",{"lineHeight":"1.5rem","letterSpacing":"-0.005em","fontWeight":"600"}],"display-lg":["3rem",{"lineHeight":"3.5rem","letterSpacing":"-0.025em","fontWeight":"700"}],"headline-md":["1.25rem",{"lineHeight":"1.75rem","letterSpacing":"-0.01em","fontWeight":"600"}],"label-sm":["0.75rem",{"lineHeight":"1rem","letterSpacing":"0.04em","fontWeight":"600"}],"headline-xl-mobile":["1.75rem",{"lineHeight":"2.25rem","letterSpacing":"-0.015em","fontWeight":"700"}],"headline-lg":["1.5rem",{"lineHeight":"2rem","letterSpacing":"-0.015em","fontWeight":"600"}],"body-lg":["1.125rem",{"lineHeight":"1.75rem","fontWeight":"400"}],"body-sm":["0.8125rem",{"lineHeight":"1.25rem","fontWeight":"400"}],"caption":["0.6875rem",{"lineHeight":"0.875rem","letterSpacing":"0.02em","fontWeight":"500"}]}}}};</script></head><body class="bg-background font-body-md text-on-surface antialiased"><aside class="fixed left-0 top-0 h-screen w-72 bg-surface-container-low z-50 flex flex-col justify-between py-6 px-4 shadow-[0_8px_24px_-4px_rgba(0,0,0,0.45)]"><div class="flex flex-col gap-6"><div class="flex items-center gap-3 px-3"><img alt="Villa Verde Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrAmkG3Zeo5rTxUoHS68fZH8IkMmkD1MXq4hdrNkmCI0DLZfMd5kNSjFUpYjNng5h4qPRgGZ6bbIhxAfuGCOaxsg8HEqi00GmCMLcqZ8ts7dIrgT9NsVkU0n5UEpD6BLSWTGmmLO_dH4Uo4NQANyO_bEVcgBNipo03c2V7u0lf3kK3l0_DU8Vtr5i1z-DonnuFSZWqEObfNgXLygcmePKKgMy4qFd-jScSmb90m_-pUv"/><div class="flex flex-col"><span class="font-title-sm text-title-sm text-on-surface font-bold tracking-tight">Villa Verde</span><span class="font-caption text-caption text-tertiary uppercase tracking-wider">Gestão Rural</span></div></div><nav class="flex flex-col gap-1.5" data-active-classes="bg-primary-container text-on-primary-container font-semibold shadow-[0_0_20px_-2px_rgba(16,185,129,0.25)]"><a aria-current="page" class="flex items-center gap-3 px-3 py-2.5 rounded-xl transition-all group bg-primary-container text-on-primary-container font-semibold shadow-[0_0_20px_-2px_rgba(16,185,129,0.25)]" data-path="reservas" href="#"><span class="material-symbols-outlined text-xl transition-colors group-hover:text-primary">book_online</span><span>Reservas</span></a><a class="flex items-center gap-3 px-3 py-2.5 rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all group font-label-md text-label-md" data-path="calendario-geral" href="#"><span class="material-symbols-outlined text-xl transition-colors group-hover:text-primary">calendar_month</span><span>Calendário Geral</span></a><a class="flex items-center gap-3 px-3 py-2.5 rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all group font-label-md text-label-md" data-path="minhas-chacaras" href="#"><span class="material-symbols-outlined text-xl transition-colors group-hover:text-primary">cottage</span><span>Minhas Chácaras</span></a><a class="flex items-center gap-3 px-3 py-2.5 rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all group font-label-md text-label-md" data-path="clientes-hospedes" href="#"><span class="material-symbols-outlined text-xl transition-colors group-hover:text-primary">group</span><span>Clientes / Hóspedes</span></a><a class="flex items-center gap-3 px-3 py-2.5 rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all group font-label-md text-label-md" data-path="financeiro" href="#"><span class="material-symbols-outlined text-xl transition-colors group-hover:text-primary">payments</span><span>Financeiro</span></a><a class="flex items-center gap-3 px-3 py-2.5 rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all group font-label-md text-label-md" data-path="relatorios" href="#"><span class="material-symbols-outlined text-xl transition-colors group-hover:text-primary">bar_chart</span><span>Relatórios</span></a><a class="flex items-center gap-3 px-3 py-2.5 rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all group font-label-md text-label-md" data-path="configuracoes" href="#"><span class="material-symbols-outlined text-xl transition-colors group-hover:text-primary">settings</span><span>Configurações</span></a></nav></div><div class="px-3 pt-4 bg-surface-container rounded-xl flex items-center justify-between"><div class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span><span class="font-caption text-caption text-on-surface-variant">Servidor Conectado</span></div><span class="font-caption text-caption text-tertiary-fixed-dim font-mono">v2.4.0</span></div></aside><div class="pl-72"><header class="fixed top-0 left-72 right-0 h-20 bg-surface/80 backdrop-blur-xl z-40 px-gutter-lg flex items-center justify-between shadow-[0_8px_24px_-4px_rgba(0,0,0,0.45)]"><div class="flex items-center gap-4 flex-1 max-w-lg"><div class="relative w-full"><span class="material-symbols-outlined absolute left-3.5 top-1/2 -translate-y-1/2 text-outline text-xl">search</span><input class="w-full h-11 pl-11 pr-4 bg-surface-container-low rounded-xl text-on-surface font-body-sm text-body-sm placeholder:text-outline focus:outline-none focus:ring-1 focus:ring-primary focus:bg-surface-container transition-all" placeholder="Buscar reservas, hóspedes ou chácaras..." type="text"/></div></div><div class="flex items-center gap-space-md"><div class="hidden xl:flex items-center bg-surface-container-low p-1 rounded-xl gap-1"><button class="px-3 py-1.5 rounded-lg bg-surface-container-high text-on-surface font-label-sm text-label-sm flex items-center gap-1.5" type="button"><span class="material-symbols-outlined text-base text-primary">table_chart</span>Lista</button><button class="px-3 py-1.5 rounded-lg text-on-surface-variant hover:text-on-surface font-label-sm text-label-sm flex items-center gap-1.5" type="button"><span class="material-symbols-outlined text-base">calendar_view_week</span>Grade</button></div><button class="h-11 px-4 rounded-xl bg-primary-container text-on-primary-container font-label-md text-label-md flex items-center gap-2 shadow-[0_0_20px_-2px_rgba(16,185,129,0.25)] hover:bg-secondary-container transition-all" type="button"><span class="material-symbols-outlined text-lg">add_circle</span><span>Nova Reserva</span></button><button class="relative w-11 h-11 rounded-xl bg-surface-container-low hover:bg-surface-container-high text-on-surface-variant hover:text-on-surface flex items-center justify-center transition-all" type="button"><span class="material-symbols-outlined text-xl">notifications</span><span class="absolute top-2.5 right-2.5 w-2 h-2 rounded-full bg-primary"></span></button><div class="flex items-center gap-3 pl-2"><div class="relative"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA7ufkEmsiCCFWboH8aCUnkEFyIkS5r9GD2ztiubNXmtErq9sQi82ng9HiE2rr5YwWLXz2xD3PyDpR0jiZDPb1U9IpK-QgeTfIKxQHM41DIFfG9ekm5s_euYosJG1VYkqH0ByipoEU7sYku29JN5vwBh_kTw8haqxekoOwFwE9NRoJ7r3K4A1fEkJFSd5uCTquXD1pcmN-oUX5M9rNbGcJkrLMT_p2UEzUVaerTNHQ"/><span class="absolute bottom-0 right-0 w-2.5 h-2.5 rounded-full bg-primary ring-2 ring-surface"></span></div><div class="hidden md:flex flex-col"><span class="font-label-md text-label-md text-on-surface font-semibold leading-tight">Admin Villa</span><span class="font-caption text-caption text-on-surface-variant">Gestor Geral</span></div></div></div></header><main class="w-full pt-20 px-gutter-lg pb-margin bg-background min-h-screen"><div class="flex flex-col w-full gap-space-lg">
+<!-- PAGE HEADER -->
+<section class="flex flex-col xl:flex-row xl:items-center justify-between gap-space-md">
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-2">
+<span class="px-2.5 py-0.5 rounded-full bg-surface-container-high text-primary font-caption text-caption uppercase tracking-wider font-semibold">Painel Executivo</span>
+<span class="text-outline text-body-sm font-body-sm">•</span>
+<span class="text-tertiary font-body-sm text-body-sm flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+          Temporada 2024/2025
+        </span>
+</div>
+<h1 class="font-headline-xl text-headline-xl text-on-surface font-bold tracking-tight">Painel de Reservas &amp; Ocupação</h1>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl">
+        Acompanhamento em tempo real das locações de fim de semana, feriados e contratos de temporada rural.
+      </p>
+</div>
+<!-- Quick Actions -->
+<div class="flex flex-wrap items-center gap-space-sm pt-2 xl:pt-0">
+<!-- Property Selector Dropdown -->
+<div class="relative min-w-[240px]">
+<div class="flex items-center gap-2.5 px-3.5 h-11 rounded-xl bg-surface-container-low text-on-surface" id="propertyDropdownTrigger">
+<span class="material-symbols-outlined text-primary text-xl">cottage</span>
+<div class="flex flex-col flex-1 leading-none">
+<span class="font-caption text-caption text-on-surface-variant">Chácara</span>
+<span class="font-label-md text-label-md font-semibold truncate" id="selectedPropertyLabel">Villa Verde</span>
+</div>
+</div>
+</div>
+<!-- Export Button -->
+<button class="h-11 px-3.5 rounded-xl bg-surface-container-low hover:bg-surface-container text-on-surface font-label-md text-label-md flex items-center gap-2 transition-all" title="Exportar Relatório em CSV / XLSX" type="button">
+<span class="material-symbols-outlined text-xl text-tertiary">ios_share</span>
+<span class="hidden sm:inline">Exportar</span>
+</button>
+<!-- Primary CTA: Nova Reserva -->
+<button class="h-11 px-5 rounded-xl bg-primary-container hover:bg-secondary-container text-on-primary-container font-label-md text-label-md font-semibold flex items-center gap-2 shadow-[0_0_24px_-2px_rgba(16,185,129,0.35)] transition-all" type="button">
+<span class="material-symbols-outlined text-xl font-bold">add</span>
+<span>+ Nova Reserva</span>
+</button>
+</div>
+</section>
+<!-- METRICS / KPI SECTION -->
+<section class="flex flex-col gap-space-sm">
+<!-- Section Sub-header & Privacy Toggle -->
+<div class="flex items-center justify-between px-1">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary text-lg">analytics</span>
+<span class="font-title-sm text-title-sm text-on-surface font-semibold">Resumo das Reservas</span>
+</div>
+<button class="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-surface-container-low hover:bg-surface-container-high text-on-surface-variant hover:text-on-surface font-label-sm text-label-sm transition-all cursor-pointer" id="togglePrivacyBtn" type="button">
+<span class="material-symbols-outlined text-base" id="privacyIcon">visibility</span>
+<span id="privacyLabel">Ocultar valores</span>
+</button>
+</div>
+<!-- KPI Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<!-- Card 1: Faturamento -->
+<div class="p-space-lg rounded-xl bg-surface-container-low flex flex-col justify-between gap-4 transition-transform hover:-translate-y-0.5">
+<div class="flex items-start justify-between">
+<div class="flex flex-col gap-1">
+<span class="font-caption text-caption uppercase tracking-wider text-on-surface-variant font-medium">Faturamento Previsto</span>
+<div class="flex items-baseline gap-2">
+<span class="font-headline-lg text-headline-lg font-bold text-on-surface tracking-tight sensitive-data" data-real-value="R$ 0,00">R$ 0,00</span>
+</div>
+</div>
+<div class="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-2xl">payments</span>
+</div>
+</div>
+<div class="flex items-center justify-between pt-1">
+<div class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-primary/10 text-primary font-caption text-caption font-semibold">
+<span class="material-symbols-outlined text-sm">trending_up</span>
+<span>Sem faturamento registrado</span>
+</div>
+</div>
+</div>
+<!-- Card 2: Reservas Ativas -->
+<div class="p-space-lg rounded-xl bg-surface-container-low flex flex-col justify-between gap-4 transition-transform hover:-translate-y-0.5">
+<div class="flex items-start justify-between">
+<div class="flex flex-col gap-1">
+<span class="font-caption text-caption uppercase tracking-wider text-on-surface-variant font-medium">Reservas Ativas</span>
+<div class="flex items-baseline gap-2">
+<span class="font-headline-lg text-headline-lg font-bold text-on-surface tracking-tight">0</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">contratos</span>
+</div>
+</div>
+<div class="w-10 h-10 rounded-xl bg-tertiary-container/15 flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined text-2xl">verified_user</span>
+</div>
+</div>
+<div class="flex items-center gap-2 pt-1">
+<span class="w-2 h-2 rounded-full bg-secondary-fixed"></span>
+<span class="font-caption text-caption text-on-surface-variant">
+Quantidade atualizada automaticamente
+          </span>
+</div>
+</div>
+</div>
+</section>
+<!-- CALENDAR AND RECENT RESERVATIONS -->
+<div class="flex flex-col gap-space-lg">
+<!-- INTERACTIVE MONTHLY CALENDAR -->
+<section class="w-full flex flex-col gap-space-md p-space-lg rounded-xl bg-surface-container-low">
+<!-- Calendar Header Navigation -->
+<div class="flex flex-col gap-3">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-xl">calendar_month</span>
+<h2 class="font-title-sm text-title-sm font-bold text-on-surface tracking-tight capitalize" id="reservationsCalendarMonth"></h2>
+</div>
+<div class="flex items-center gap-1.5">
+<button data-calendar-nav="prev" aria-label="Mês anterior" class="w-8 h-8 rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface-variant hover:text-on-surface flex items-center justify-center transition-colors" type="button">
+<span class="material-symbols-outlined text-lg">chevron_left</span>
+</button>
+<button data-calendar-nav="today" class="px-2.5 h-8 rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface font-caption text-caption font-semibold transition-colors" type="button">
+              Hoje
+            </button>
+<button data-calendar-nav="next" aria-label="Próximo mês" class="w-8 h-8 rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface-variant hover:text-on-surface flex items-center justify-center transition-colors" type="button">
+<span class="material-symbols-outlined text-lg">chevron_right</span>
+</button>
+</div>
+</div>
+<!-- Legend -->
+<div class="pt-1 pb-2">
+<span class="font-caption text-caption text-on-surface-variant" id="reservationsCalendarHint">Clique em uma data para definir a entrada e em outra para definir a saída.</span>
+</div>
+</div>
+<!-- 7-Column Calendar Grid -->
+<div class="flex flex-col gap-1 w-full select-none" id="calendarGridWrapper">
+<!-- Weekday Headers -->
+<div class="grid grid-cols-7 gap-1 text-center font-caption text-caption text-on-surface-variant font-semibold pb-1">
+<div>DOM</div>
+<div>SEG</div>
+<div>TER</div>
+<div>QUA</div>
+<div>QUI</div>
+<div class="text-primary font-bold">SEX</div>
+<div class="text-primary font-bold">SÁB</div>
+</div>
+<!-- Days Matrix: Nov 2024 begins on Friday (Oct 27-31 leading) -->
+<div class="grid grid-cols-7 gap-1.5 font-body-sm text-body-sm" id="reservationsCalendarDays">
+<!-- Previous month padding (27-31 Out) -->
+<div class="h-14 rounded-lg bg-surface-container-lowest/30 p-1 flex flex-col justify-between opacity-30 cursor-not-allowed">
+<span class="font-caption text-caption">27</span>
+</div>
+<div class="h-14 rounded-lg bg-surface-container-lowest/30 p-1 flex flex-col justify-between opacity-30 cursor-not-allowed">
+<span class="font-caption text-caption">28</span>
+</div>
+<div class="h-14 rounded-lg bg-surface-container-lowest/30 p-1 flex flex-col justify-between opacity-30 cursor-not-allowed">
+<span class="font-caption text-caption">29</span>
+</div>
+<div class="h-14 rounded-lg bg-surface-container-lowest/30 p-1 flex flex-col justify-between opacity-30 cursor-not-allowed">
+<span class="font-caption text-caption">30</span>
+</div>
+<div class="h-14 rounded-lg bg-surface-container-lowest/30 p-1 flex flex-col justify-between opacity-30 cursor-not-allowed">
+<span class="font-caption text-caption">31</span>
+</div>
+<!-- Nov 1 (Sex) - Reservado FDS Finados -->
+<div class="cal-cell h-14 rounded-lg bg-primary/15 hover:bg-primary/25 p-1 flex flex-col justify-between cursor-pointer transition-all" data-date="01/11" data-info="Chácara Recanto • Família Braga" data-status="Reservado">
+<div class="flex justify-between items-center">
+<span class="font-caption text-caption font-bold text-on-surface">1</span>
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+</div>
+<span class="font-caption text-caption text-primary truncate leading-tight">Fam. Braga</span>
+</div>
+<!-- Nov 2 (Sáb) -->
+<div class="cal-cell h-14 rounded-lg bg-primary/15 hover:bg-primary/25 p-1 flex flex-col justify-between cursor-pointer transition-all" data-date="02/11" data-info="Chácara Recanto • Família Braga" data-status="Reservado">
+<div class="flex justify-between items-center">
+<span class="font-caption text-caption font-bold text-on-surface">2</span>
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+</div>
+<span class="font-caption text-caption text-primary truncate leading-tight">Recanto</span>
+</div>
+<!-- Nov 3 (Dom) -->
+<div class="cal-cell h-14 rounded-lg bg-primary/15 hover:bg-primary/25 p-1 flex flex-col justify-between cursor-pointer transition-all" data-date="03/11" data-info="Check-out 18:00" data-status="Reservado">
+<div class="flex justify-between items-center">
+<span class="font-caption text-caption font-bold text-on-surface">3</span>
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+</div>
+<span class="font-caption text-caption text-tertiary-fixed-dim truncate leading-tight">Out 18h</span>
+</div>
+<!-- Nov 4 (Seg) - Livre -->
+<div class="cal-cell h-14 rounded-lg bg-surface-container hover:bg-surface-container-high p-1 flex flex-col justify-between cursor-pointer transition-all" data-date="04/11" data-info="Diária R$ 550,00" data-status="Disponível">
+<span class="font-caption text-caption text-on-surface-variant">4</span>
+<span class="font-caption text-caption text-outline truncate">R$ 550</span>
+</div>
+<!-- Nov 5 (Ter) - Livre -->
+<div class="cal-cell h-14 rounded-lg bg-surface-container hover:bg-surface-container-high p-1 flex flex-col justify-between cursor-pointer transition-all" data-date="05/11" data-info="Diária R$ 550,00" data-status="Disponível">
+<span class="font-caption text-caption text-on-surface-variant">5</span>
+<span class="font-caption text-caption text-outline truncate">R$ 550</span>
+</div>
+<!-- Nov 6 (Qua) - Manutenção -->
+<div class="cal-cell h-14 rounded-lg bg-amber-500/10 hover:bg-amber-500/20 p-1 flex flex-col justify-between cursor-pointer transition-all" data-date="06/11" data-info="Limpeza Piscina Solar" data-status="Manutenção">
+<div class="flex justify-between items-center">
+<span class="font-caption text-caption text-on-surface-variant">6</span>
+<span class="w-1.5 h-1.5 rounded-full bg-amber-400"></span>
+</div>
+<span class="font-caption text-caption text-amber-300 truncate">Limpeza</span>
+</div>
+<!-- Nov 7 (Qui) - Livre -->
+<div class="cal-cell h-14 rounded-lg bg-surface-container hover:bg-surface-container-high p-1 flex flex-col justify-between cursor-pointer transition-all" data-date="07/11" data-info="Diária R$ 600,00" data-status="Disponível">
+<span class="font-caption text-caption text-on-surface-variant">7</span>
+<span class="font-caption text-caption text-outline truncate">R$ 600</span>
+</div>
+<!-- Nov 8 (Sex) - Reservado FDS -->
+<div class="cal-cell h-14 rounded-lg bg-primary/15 hover:bg-primary/25 p-1 flex flex-col justify-between cursor-pointer transition-all" data-date="08/11" data-info="Solar Palmeiras • Dr. Paulo" data-status="Reservado">
+<div class="flex justify-between items-center">
+<span class="font-caption text-caption font-bold text-on-surface">8</span>
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+</div>
+<span class="font-caption text-caption text-primary truncate leading-tight">Dr. Paulo</span>
+</div>
+<!-- Nov 9 (Sáb) -->
+<div class="cal-cell h-14 rounded-lg bg-primary/15 hover:bg-primary/25 p-1 flex flex-col justify-between cursor-pointer transition-all" data-date="09/11" data-info="Solar Palmeiras • Dr. Paulo" data-status="Reservado">
+<div class="flex justify-between items-center">
+<span class="font-caption text-caption font-bold text-on-surface">9</span>
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+</div>
+<span class="font-caption text-caption text-primary truncate leading-tight">Palmeiras</span>
+</div>
+<!-- Nov 10 (Dom) -->
+<div class="cal-cell h-14 rounded-lg bg-primary/15 hover:bg-primary/25 p-1 flex flex-col justify-between cursor-pointer transition-all" data-date="10/11" data-info="Check-out 18:00" data-status="Reservado">
+<div class="flex justify-between items-center">
+<span class="font-caption text-caption font-bold text-on-surface">10</span>
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+</div>
+<span class="font-caption text-caption text-tertiary-fixed-dim truncate leading-tight">Out 18h</span>
+</div>
+<!-- Nov 11 (Seg) -->
+<div class="cal-cell h-14 rounded-lg bg-surface-container hover:bg-surface-container-high p-1 flex flex-col justify-between cursor-pointer transition-all" data-date="11/11" data-info="Diária R$ 550,00" data-status="Disponível">
+<span class="font-caption text-caption text-on-surface-variant">11</span>
+<span class="font-caption text-caption text-outline truncate">R$ 550</span>
+</div>
+<!-- Nov 12 (Ter) -->
+<div class="cal-cell h-14 rounded-lg bg-surface-container hover:bg-surface-container-high p-1 flex flex-col justify-between cursor-pointer transition-all" data-date="12/11" data-info="Diária R$ 550,00" data-status="Disponível">
+<span class="font-caption text-caption text-on-surface-variant">12</span>
+<span class="font-caption text-caption text-outline truncate">R$ 550</span>
+</div>
+<!-- Nov 13 (Qua) -->
+<div class="cal-cell h-14 rounded-lg bg-surface-container hover:bg-surface-container-high p-1 flex flex-col justify-between cursor-pointer transition-all" data-date="13/11" data-info="Diária R$ 550,00" data-status="Disponível">
+<span class="font-caption text-caption text-on-surface-variant">13</span>
+<span class="font-caption text-caption text-outline truncate">R$ 550</span>
+</div>
+<!-- Nov 14 (Qui) - Véspera Feriado Check-in -->
+<div class="cal-cell h-14 rounded-lg bg-secondary-fixed/20 hover:bg-secondary-fixed/30 p-1 flex flex-col justify-between cursor-pointer transition-all shadow-[0_0_12px_rgba(104,252,191,0.2)]" data-date="14/11" data-info="Início Pacote Feriado Proclamação" data-status="Check-in Hoje">
+<div class="flex justify-between items-center">
+<span class="font-caption text-caption font-bold text-secondary-fixed">14</span>
+<span class="w-2 h-2 rounded-full bg-secondary-fixed animate-ping"></span>
+</div>
+<span class="font-caption text-caption text-secondary-fixed font-bold truncate">Check-in</span>
+</div>
+<!-- Nov 15 (Sex) - Feriado Proclamação (HIGHLIGHT MULTI-DAY) -->
+<div class="cal-cell h-14 rounded-lg bg-primary/30 p-1 flex flex-col justify-between cursor-pointer transition-all ring-1 ring-primary shadow-[0_0_16px_rgba(78,222,163,0.3)]" data-date="15/11" data-info="Bella Vista • Casamento R&amp;L" data-status="Feriado Reservado">
+<div class="flex justify-between items-center">
+<span class="font-caption text-caption font-bold text-white">15</span>
+<span class="material-symbols-outlined text-xs text-primary">flag</span>
+</div>
+<span class="font-caption text-caption text-primary font-bold truncate">Casamento</span>
+</div>
+<!-- Nov 16 (Sáb) -->
+<div class="cal-cell h-14 rounded-lg bg-primary/30 p-1 flex flex-col justify-between cursor-pointer transition-all ring-1 ring-primary" data-date="16/11" data-info="Bella Vista • Casamento R&amp;L" data-status="Feriado Reservado">
+<div class="flex justify-between items-center">
+<span class="font-caption text-caption font-bold text-white">16</span>
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+</div>
+<span class="font-caption text-caption text-primary truncate font-bold">Bella Vista</span>
+</div>
+<!-- Nov 17 (Dom) -->
+<div class="cal-cell h-14 rounded-lg bg-primary/30 p-1 flex flex-col justify-between cursor-pointer transition-all ring-1 ring-primary" data-date="17/11" data-info="Check-out Especial 20h" data-status="Feriado Reservado">
+<div class="flex justify-between items-center">
+<span class="font-caption text-caption font-bold text-white">17</span>
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+</div>
+<span class="font-caption text-caption text-tertiary-fixed-dim truncate">Fim Pacote</span>
+</div>
+<!-- Nov 18-24 (Demais semanas do mês) -->
+<div class="cal-cell h-14 rounded-lg bg-surface-container hover:bg-surface-container-high p-1 flex flex-col justify-between cursor-pointer transition-all" data-date="18/11" data-info="Diária R$ 600,00" data-status="Disponível">
+<span class="font-caption text-caption text-on-surface-variant">18</span>
+<span class="font-caption text-caption text-outline truncate">R$ 600</span>
+</div>
+<div class="cal-cell h-14 rounded-lg bg-surface-container hover:bg-surface-container-high p-1 flex flex-col justify-between cursor-pointer transition-all" data-date="19/11" data-info="Diária R$ 600,00" data-status="Disponível">
+<span class="font-caption text-caption text-on-surface-variant">19</span>
+<span class="font-caption text-caption text-outline truncate">R$ 600</span>
+</div>
+<div class="cal-cell h-14 rounded-lg bg-amber-500/10 hover:bg-amber-500/20 p-1 flex flex-col justify-between cursor-pointer transition-all" data-date="20/11" data-info="Aguardando Comprovante" data-status="Pré-reserva">
+<div class="flex justify-between items-center">
+<span class="font-caption text-caption text-amber-200">20</span>
+<span class="w-1.5 h-1.5 rounded-full bg-amber-400"></span>
+</div>
+<span class="font-caption text-caption text-amber-300 truncate">Pré-reserva</span>
+</div>
+<div class="cal-cell h-14 rounded-lg bg-surface-container hover:bg-surface-container-high p-1 flex flex-col justify-between cursor-pointer transition-all" data-date="21/11" data-info="Diária R$ 600,00" data-status="Disponível">
+<span class="font-caption text-caption text-on-surface-variant">21</span>
+<span class="font-caption text-caption text-outline truncate">R$ 600</span>
+</div>
+<!-- Nov 22-24 FDS -->
+<div class="cal-cell h-14 rounded-lg bg-primary/15 hover:bg-primary/25 p-1 flex flex-col justify-between cursor-pointer transition-all" data-date="22/11" data-info="Rancho do Lago • Família Mendes" data-status="Reservado">
+<div class="flex justify-between items-center">
+<span class="font-caption text-caption font-bold text-on-surface">22</span>
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+</div>
+<span class="font-caption text-caption text-primary truncate leading-tight">Fam. Mendes</span>
+</div>
+<div class="cal-cell h-14 rounded-lg bg-primary/15 hover:bg-primary/25 p-1 flex flex-col justify-between cursor-pointer transition-all" data-date="23/11" data-info="Rancho do Lago • Família Mendes" data-status="Reservado">
+<div class="flex justify-between items-center">
+<span class="font-caption text-caption font-bold text-on-surface">23</span>
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+</div>
+<span class="font-caption text-caption text-primary truncate leading-tight">Rancho Lago</span>
+</div>
+<div class="cal-cell h-14 rounded-lg bg-primary/15 hover:bg-primary/25 p-1 flex flex-col justify-between cursor-pointer transition-all" data-date="24/11" data-info="Check-out 18:00" data-status="Reservado">
+<div class="flex justify-between items-center">
+<span class="font-caption text-caption font-bold text-on-surface">24</span>
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+</div>
+<span class="font-caption text-caption text-tertiary-fixed-dim truncate leading-tight">Out 18h</span>
+</div>
+<!-- Nov 25-30 Final do mês -->
+<div class="cal-cell h-14 rounded-lg bg-surface-container hover:bg-surface-container-high p-1 flex flex-col justify-between cursor-pointer transition-all" data-date="25/11" data-info="Diária R$ 650,00" data-status="Disponível">
+<span class="font-caption text-caption text-on-surface-variant">25</span>
+<span class="font-caption text-caption text-outline truncate">R$ 650</span>
+</div>
+<div class="cal-cell h-14 rounded-lg bg-surface-container hover:bg-surface-container-high p-1 flex flex-col justify-between cursor-pointer transition-all" data-date="26/11" data-info="Diária R$ 650,00" data-status="Disponível">
+<span class="font-caption text-caption text-on-surface-variant">26</span>
+<span class="font-caption text-caption text-outline truncate">R$ 650</span>
+</div>
+<div class="cal-cell h-14 rounded-lg bg-surface-container hover:bg-surface-container-high p-1 flex flex-col justify-between cursor-pointer transition-all" data-date="27/11" data-info="Diária R$ 650,00" data-status="Disponível">
+<span class="font-caption text-caption text-on-surface-variant">27</span>
+<span class="font-caption text-caption text-outline truncate">R$ 650</span>
+</div>
+<div class="cal-cell h-14 rounded-lg bg-surface-container hover:bg-surface-container-high p-1 flex flex-col justify-between cursor-pointer transition-all" data-date="28/11" data-info="Diária R$ 650,00" data-status="Disponível">
+<span class="font-caption text-caption text-on-surface-variant">28</span>
+<span class="font-caption text-caption text-outline truncate">R$ 650</span>
+</div>
+<div class="cal-cell h-14 rounded-lg bg-primary/15 hover:bg-primary/25 p-1 flex flex-col justify-between cursor-pointer transition-all" data-date="29/11" data-info="Recanto Verde • Aniversário" data-status="Reservado">
+<div class="flex justify-between items-center">
+<span class="font-caption text-caption font-bold text-on-surface">29</span>
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+</div>
+<span class="font-caption text-caption text-primary truncate leading-tight">Aniversário</span>
+</div>
+<div class="cal-cell h-14 rounded-lg bg-primary/15 hover:bg-primary/25 p-1 flex flex-col justify-between cursor-pointer transition-all" data-date="30/11" data-info="Recanto Verde • Aniversário" data-status="Reservado">
+<div class="flex justify-between items-center">
+<span class="font-caption text-caption font-bold text-on-surface">30</span>
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+</div>
+<span class="font-caption text-caption text-primary truncate leading-tight">Recanto</span>
+</div>
+<!-- Dez 1 (Próximo mês) -->
+<div class="h-14 rounded-lg bg-surface-container-lowest/30 p-1 flex flex-col justify-between opacity-30 cursor-not-allowed">
+<span class="font-caption text-caption">1</span>
+</div>
+</div>
+</div>
+<!-- Quick Day Inspector Dynamic Panel -->
+<div class="p-3.5 rounded-xl bg-surface-container flex items-center justify-between transition-all" id="calendarDayInspector">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-xl bg-primary/15 text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-xl">event_upcoming</span>
+</div>
+<div class="flex flex-col">
+<span class="font-caption text-caption text-on-surface-variant" id="inspectorDate">Nenhuma data selecionada</span>
+<span class="font-label-md text-label-md font-semibold text-on-surface" id="inspectorStatus">Selecione um dia no calendário</span>
+</div>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="px-2.5 py-1 rounded-full bg-surface-container-highest text-on-surface-variant font-caption text-caption font-bold" id="inspectorBadge">Disponível</span>
+</div>
+</div>
+</section>
+<!-- RESERVATIONS LIST & CHECK-IN CONTROLS -->
+<section id="reservationsSection" class="w-full flex flex-col gap-space-md p-space-lg rounded-xl bg-surface-container-low">
+<!-- Section Title & Advanced Search -->
+<div class="flex flex-col gap-3">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+<div>
+<h2 class="font-title-sm text-title-sm font-bold text-on-surface tracking-tight">Registros Recentes &amp; Próximos Check-ins</h2>
+<p class="font-caption text-caption text-on-surface-variant">Gestão direta de contratos, vouchers e contatos de hóspedes</p>
+</div>
+<span class="font-caption text-caption text-tertiary-fixed-dim bg-surface-container px-2.5 py-1 rounded-lg self-start sm:self-auto font-mono">
+            32 Reservas Ativas
+          </span>
+</div>
+<!-- Search Bar & Period Filter -->
+<div class="flex flex-col sm:flex-row items-center gap-2">
+<div class="relative w-full">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-lg">search</span>
+<input class="w-full h-10 pl-9 pr-3 rounded-xl bg-surface-container text-on-surface font-body-sm text-body-sm placeholder:text-outline focus:outline-none focus:ring-1 focus:ring-primary transition-all" placeholder="Buscar por hóspede, telefone, código ou chácara..." type="text"/>
+</div>
+<button class="w-full sm:w-auto h-10 px-3.5 rounded-xl bg-surface-container hover:bg-surface-container-high text-on-surface font-label-sm text-label-sm flex items-center justify-center gap-1.5 shrink-0 transition-colors" type="button">
+<span class="material-symbols-outlined text-base text-tertiary">tune</span>
+<span>Filtros</span>
+</button>
+</div>
+<!-- Filter Status Pills -->
+<div class="flex items-center gap-1.5 overflow-x-auto pb-1" id="filterPillsWrapper">
+<button class="filter-pill px-3 py-1 rounded-full bg-primary-container text-on-primary-container font-label-sm text-label-sm font-semibold transition-all whitespace-nowrap" data-filter="all" type="button">
+            Todas (0)
+          </button>
+<button class="filter-pill px-3 py-1 rounded-full bg-surface-container text-on-surface-variant hover:text-on-surface font-label-sm text-label-sm font-medium transition-all whitespace-nowrap" data-filter="confirmada" type="button">
+            Confirmadas (0)
+          </button>
+<button class="filter-pill px-3 py-1 rounded-full bg-surface-container text-on-surface-variant hover:text-on-surface font-label-sm text-label-sm font-medium transition-all whitespace-nowrap" data-filter="pendente" type="button">
+            Pendentes Pgto (0)
+          </button>
+<button class="filter-pill px-3 py-1 rounded-full bg-surface-container text-on-surface-variant hover:text-on-surface font-label-sm text-label-sm font-medium transition-all whitespace-nowrap" data-filter="hoje" type="button">
+            Check-in Hoje (0)
+          </button>
+<button class="filter-pill px-3 py-1 rounded-full bg-surface-container text-on-surface-variant hover:text-on-surface font-label-sm text-label-sm font-medium transition-all whitespace-nowrap" data-filter="concluida" type="button">
+            Concluídas (0)
+          </button>
+</div>
+</div>
+<!-- Reservations Table Container -->
+<div class="overflow-x-auto -mx-space-lg px-space-lg">
+<table class="w-full text-left font-body-sm text-body-sm">
+<thead>
+<tr class="font-caption text-caption text-on-surface-variant uppercase tracking-wider">
+<th class="py-2.5 pr-3 font-semibold">Chácara / Código</th>
+<th class="py-2.5 px-3 font-semibold">Hóspede Principal</th>
+<th class="py-2.5 px-3 font-semibold">Período</th>
+<th class="py-2.5 px-3 font-semibold">Valor &amp; Sinal</th>
+<th class="py-2.5 px-3 font-semibold">Status</th>
+<th class="py-2.5 pl-3 text-right font-semibold">Ações</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-transparent">
+<!-- Row 1: Mariana Alencar (Feriado - Destaque) -->
+<tr class="hover:bg-surface-container/60 transition-colors group">
+<!-- Property Info -->
+<td class="py-3.5 pr-3">
+<div class="flex items-center gap-2.5">
+<img class="w-10 h-10 rounded-lg object-cover" data-alt="Chácara Bella Vista luxurious estate with swimming pool surrounded by palm trees and lush green grass at golden sunset" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDYotatyC1DbiRJxd06FOL4dxgydU-CCPWfSMxHCinXzAnW2WAkklkL3myL3-t5TFbWUnmCkN2KUjF1AyEMaTSvyQD_vsgz5bwkK5xMJjQ5w35soZZzXDxO0CQXMZKqqAyt2zswELgR7E3xVrCd_G9JRRZ4PpRHYcxl8n39yWR0OD2yCY2X91pJ5I7926qw2S0MAlRs8SrvjTOAUhyQSSsza_JTIYBaTA6eGdVrhy8"/>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm font-bold text-on-surface truncate">Chácara Villa Verde</span>
+<span class="font-caption text-caption text-tertiary font-mono">#VR-1092</span>
+</div>
+</div>
+</td>
+<!-- Guest Info -->
+<td class="py-3.5 px-3">
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 rounded-full bg-primary/20 text-primary font-label-sm text-label-sm font-bold flex items-center justify-center">
+                    MA
+                  </div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold truncate">Mariana Alencar</span>
+<span class="font-caption text-caption text-on-surface-variant truncate">18 hóspedes • (11) 98721-4402</span>
+</div>
+</div>
+</td>
+<!-- Date Period -->
+<td class="py-3.5 px-3">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm font-semibold text-on-surface">15 Nov - 17 Nov</span>
+<span class="font-caption text-caption text-primary">2 diárias (Feriado)</span>
+</div>
+</td>
+<!-- Value -->
+<td class="py-3.5 px-3">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm font-bold text-on-surface sensitive-data" data-real-value="R$ 3.800,00">R$ 3.800,00</span>
+<span class="font-caption text-caption text-primary">100% Pago (PIX)</span>
+</div>
+</td>
+<!-- Status Badge -->
+<td class="py-3.5 px-3">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-primary/15 text-primary font-caption text-caption font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-primary animate-pulse"></span>
+                  Confirmada
+                </span>
+</td>
+<!-- Actions -->
+<td class="py-3.5 pl-3 text-right">
+<div class="inline-flex items-center gap-1">
+<a class="w-8 h-8 rounded-lg bg-surface-container hover:bg-primary/20 hover:text-primary text-on-surface-variant flex items-center justify-center transition-colors" href="https://wa.me/5511987214402" rel="noopener noreferrer" target="_blank" title="Conversar no WhatsApp">
+<span class="material-symbols-outlined text-base">chat</span>
+</a>
+<button class="w-8 h-8 rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface-variant hover:text-on-surface flex items-center justify-center transition-colors" title="Contrato Digital" type="button">
+<span class="material-symbols-outlined text-base">description</span>
+</button>
+<button class="w-8 h-8 rounded-lg hover:bg-surface-container-high text-on-surface-variant hover:text-on-surface flex items-center justify-center transition-colors" type="button">
+<span class="material-symbols-outlined text-base">more_vert</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Row 2: Carlos Eduardo (Check-in Hoje) -->
+<tr class="hover:bg-surface-container/60 transition-colors group">
+<td class="py-3.5 pr-3">
+<div class="flex items-center gap-2.5">
+<img class="w-10 h-10 rounded-lg object-cover" data-alt="Chácara Recanto Verde modern rustic villa with outdoor gourmet barbecue area and green garden lawn" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAedoTcme-ihRD4Y5z2b59pqfLQ7mT66B7utRIeg2_zSoaPVJLr2O9679nH7HEclOITA_xXLtC_nkjP4y4F_pQKd8fuD4StBFMjF46E3OSq0DBpzPsF_D7duA1RlgNmrptafJJIoOMxUhzq5Ixi4-XQgMNb5wkugzCXhYqob3p4YigKwd3N-I2BQpB68izb4OksohZ7daJGndDNkcVIOxmiljuQcp1Vd7OvqlxiIQo"/>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm font-bold text-on-surface truncate">Chácara Villa Verde</span>
+<span class="font-caption text-caption text-tertiary font-mono">#VR-1088</span>
+</div>
+</div>
+</td>
+<td class="py-3.5 px-3">
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 rounded-full bg-cyan-500/20 text-cyan-300 font-label-sm text-label-sm font-bold flex items-center justify-center">
+                    CE
+                  </div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold truncate">Carlos E. Drummond</span>
+<span class="font-caption text-caption text-on-surface-variant truncate">12 hóspedes • (19) 99120-1198</span>
+</div>
+</div>
+</td>
+<td class="py-3.5 px-3">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm font-semibold text-secondary-fixed">14 Nov - 17 Nov</span>
+<span class="font-caption text-caption text-secondary-fixed font-bold">Check-in 14:00 (Hoje)</span>
+</div>
+</td>
+<td class="py-3.5 px-3">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm font-bold text-on-surface sensitive-data" data-real-value="R$ 4.200,00">R$ 4.200,00</span>
+<span class="font-caption text-caption text-primary">50% Sinal + Rest. Check-in</span>
+</div>
+</td>
+<td class="py-3.5 px-3">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-cyan-500/15 text-cyan-300 font-caption text-caption font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-cyan-400"></span>
+                  Check-in Hoje
+                </span>
+</td>
+<td class="py-3.5 pl-3 text-right">
+<div class="inline-flex items-center gap-1">
+<a class="w-8 h-8 rounded-lg bg-surface-container hover:bg-primary/20 hover:text-primary text-on-surface-variant flex items-center justify-center transition-colors" href="https://wa.me/5519991201198" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-base">chat</span>
+</a>
+<button class="w-8 h-8 rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface-variant hover:text-on-surface flex items-center justify-center transition-colors" type="button">
+<span class="material-symbols-outlined text-base">description</span>
+</button>
+<button class="w-8 h-8 rounded-lg hover:bg-surface-container-high text-on-surface-variant hover:text-on-surface flex items-center justify-center transition-colors" type="button">
+<span class="material-symbols-outlined text-base">more_vert</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Row 3: Vanessa Bittencourt (Pendente Sinal) -->
+<tr class="hover:bg-surface-container/60 transition-colors group">
+<td class="py-3.5 pr-3">
+<div class="flex items-center gap-2.5">
+<img class="w-10 h-10 rounded-lg object-cover" data-alt="Solar das Palmeiras charming countryside mansion with colonial architecture and swimming pool under warm afternoon sun" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCXeABYnrE-gZ4CD-XCrxOy6ykaQak6sjCkbfTAUXnIWnsouSV0xbrgNYwkURfofh9osE5d43vR9X6BwND3detzkQM_ezHCAtOrgs7XbSTfoxcZLkgZSG08R8qSyNLqURC14Dp8-qMGSjGc-tJFGXfbwJ97xBSSi5XGXqL3if3eG4yb9URNomBsb_Zc9h0HDLvHFr6ClWDo91G4kDLONGSJeqThyDyGwBw3GkAiiPo"/>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm font-bold text-on-surface truncate">Chácara Villa Verde</span>
+<span class="font-caption text-caption text-tertiary font-mono">#VR-1095</span>
+</div>
+</div>
+</td>
+<td class="py-3.5 px-3">
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 rounded-full bg-amber-500/20 text-amber-300 font-label-sm text-label-sm font-bold flex items-center justify-center">
+                    VB
+                  </div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold truncate">Vanessa Bittencourt</span>
+<span class="font-caption text-caption text-on-surface-variant truncate">8 hóspedes • (11) 97334-0012</span>
+</div>
+</div>
+</td>
+<td class="py-3.5 px-3">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm font-semibold text-on-surface">22 Nov - 24 Nov</span>
+<span class="font-caption text-caption text-on-surface-variant">2 diárias (FDS)</span>
+</div>
+</td>
+<td class="py-3.5 px-3">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm font-bold text-on-surface sensitive-data" data-real-value="R$ 2.600,00">R$ 2.600,00</span>
+<span class="font-caption text-caption text-amber-300">Aguardando R$ 1.300</span>
+</div>
+</td>
+<td class="py-3.5 px-3">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-amber-500/15 text-amber-300 font-caption text-caption font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-amber-400"></span>
+                  Pendente Sinal
+                </span>
+</td>
+<td class="py-3.5 pl-3 text-right">
+<div class="inline-flex items-center gap-1">
+<a class="w-8 h-8 rounded-lg bg-surface-container hover:bg-primary/20 hover:text-primary text-on-surface-variant flex items-center justify-center transition-colors" href="https://wa.me/5511973340012" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-base">chat</span>
+</a>
+<button class="w-8 h-8 rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface-variant hover:text-on-surface flex items-center justify-center transition-colors" type="button">
+<span class="material-symbols-outlined text-base">send</span>
+</button>
+<button class="w-8 h-8 rounded-lg hover:bg-surface-container-high text-on-surface-variant hover:text-on-surface flex items-center justify-center transition-colors" type="button">
+<span class="material-symbols-outlined text-base">more_vert</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Row 4: Rodrigo Pires (Contrato Assinado) -->
+<tr class="hover:bg-surface-container/60 transition-colors group">
+<td class="py-3.5 pr-3">
+<div class="flex items-center gap-2.5">
+<img class="w-10 h-10 rounded-lg object-cover" data-alt="Rancho do Lago lakefront wooden deck with fishing pontoon and luxury country cottage in tranquil nature" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAWdIpF4wZxGH2FGVT0_IJJmC3QPeQAai1eblIVVXPwmNRJl1TB2hI18tB2blZYiyiLeC9_E9o-BY2vprfC6gFSvNFoUWqaI0eS7N1T4aCfHBocQXUcnocS2n9pf0-6GrCml8fj6BZR6qJ-9C3H08YXqEP95aKHq7smTO0NJxqri2xJorIqr9tSn206JcHQZ7YuIzHg8DDjXIw15zan2209nmZK4q08t82SimunZtY"/>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm font-bold text-on-surface truncate">Chácara Villa Verde</span>
+<span class="font-caption text-caption text-tertiary font-mono">#VR-1090</span>
+</div>
+</div>
+</td>
+<td class="py-3.5 px-3">
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 rounded-full bg-purple-500/20 text-purple-300 font-label-sm text-label-sm font-bold flex items-center justify-center">
+                    RP
+                  </div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold truncate">Rodrigo Pires</span>
+<span class="font-caption text-caption text-on-surface-variant truncate">15 hóspedes • (11) 98112-9898</span>
+</div>
+</div>
+</td>
+<td class="py-3.5 px-3">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm font-semibold text-on-surface">29 Nov - 01 Dez</span>
+<span class="font-caption text-caption text-on-surface-variant">2 diárias (FDS)</span>
+</div>
+</td>
+<td class="py-3.5 px-3">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm font-bold text-on-surface sensitive-data" data-real-value="R$ 3.100,00">R$ 3.100,00</span>
+<span class="font-caption text-caption text-primary">Sinal Confirmado</span>
+</div>
+</td>
+<td class="py-3.5 px-3">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-purple-500/15 text-purple-300 font-caption text-caption font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-purple-400"></span>
+                  Contrato Assinado
+                </span>
+</td>
+<td class="py-3.5 pl-3 text-right">
+<div class="inline-flex items-center gap-1">
+<a class="w-8 h-8 rounded-lg bg-surface-container hover:bg-primary/20 hover:text-primary text-on-surface-variant flex items-center justify-center transition-colors" href="https://wa.me/5511981129898" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-base">chat</span>
+</a>
+<button class="w-8 h-8 rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface-variant hover:text-on-surface flex items-center justify-center transition-colors" type="button">
+<span class="material-symbols-outlined text-base">description</span>
+</button>
+<button class="w-8 h-8 rounded-lg hover:bg-surface-container-high text-on-surface-variant hover:text-on-surface flex items-center justify-center transition-colors" type="button">
+<span class="material-symbols-outlined text-base">more_vert</span>
+</button>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Pagination and Showing Range -->
+<div class="flex flex-col sm:flex-row items-center justify-between gap-3 pt-2">
+<span class="font-caption text-caption text-on-surface-variant">
+          Mostrando <strong class="text-on-surface font-semibold">0</strong> de <strong class="text-on-surface font-semibold">0</strong> reservas registradas
+        </span>
+<span class="font-caption text-caption text-on-surface-variant">As novas reservas serão listadas aqui.</span>
+</div>
+</section>
+</div>
+<!-- INLINE CLIENT SCRIPT: Privacy Toggle & Interactive Calendar Selection -->
+<script>
+    (function() {
+      // 1. Privacy Toggle for Sensitive Financial Values
+      const privacyBtn = document.getElementById('togglePrivacyBtn');
+      const privacyIcon = document.getElementById('privacyIcon');
+      const privacyLabel = document.getElementById('privacyLabel');
+      let isHidden = false;
+
+      if (privacyBtn) {
+        privacyBtn.addEventListener('click', () => {
+          isHidden = !isHidden;
+          if (isHidden) {
+            privacyIcon.textContent = 'visibility_off';
+            privacyLabel.textContent = 'Mostrar valores';
+            document.querySelectorAll('.sensitive-data').forEach(el => {
+              el.setAttribute('data-original', el.textContent);
+              el.textContent = '••••••••';
+            });
+          } else {
+            privacyIcon.textContent = 'visibility';
+            privacyLabel.textContent = 'Ocultar valores';
+            document.querySelectorAll('.sensitive-data').forEach(el => {
+              const real = el.getAttribute('data-real-value');
+              if (real) el.textContent = real;
+            });
+          }
+        });
+      }
+
+      // 2. Calendar selection inspector
+      const inspectorDate = document.getElementById('inspectorDate');
+      const inspectorStatus = document.getElementById('inspectorStatus');
+      const inspectorBadge = document.getElementById('inspectorBadge');
+
+      // 3. Status Filter Pills Interaction
+      const pills = document.querySelectorAll('.filter-pill');
+      pills.forEach(pill => {
+        pill.addEventListener('click', () => {
+          pills.forEach(p => {
+            p.className = 'filter-pill px-3 py-1 rounded-full bg-surface-container text-on-surface-variant hover:text-on-surface font-label-sm text-label-sm font-medium transition-all whitespace-nowrap';
+          });
+          pill.className = 'filter-pill px-3 py-1 rounded-full bg-primary-container text-on-primary-container font-label-sm text-label-sm font-semibold transition-all whitespace-nowrap';
+        });
+      });
+
+      const main = document.querySelector('main');
+      const dashboard = main && main.firstElementChild;
+      const tableBody = document.querySelector('table tbody');
+      if (tableBody) tableBody.replaceChildren();
+      const searchInput = document.querySelector('input[placeholder^="Buscar por hóspede"]');
+      document.querySelectorAll('nav a[data-path="minhas-chacaras"], nav a[data-path="relatorios"], nav a[data-path="clientes-hospedes"]').forEach(link => link.remove());
+      const navLinks = document.querySelectorAll('nav a[data-path]');
+      const navItems = Array.from(navLinks).map(link => ({
+        path: link.dataset.path,
+        label: link.querySelector('span:last-child').textContent.trim()
+      }));
+      const propertyName = 'Chácara Villa Verde';
+      const storageKey = 'villaVerde.reservas.v1';
+      const maintenanceStorageKey = 'villaVerde.manutencao.v1';
+      let activeFilter = 'all';
+      let financeFilter = 'all';
+      let savedBookings = [];
+      let maintenanceDates = [];
+      let calendarMonth = new Date(new Date().getFullYear(), new Date().getMonth(), 1);
+      let selectedCalendarDate;
+      let reservationRangeStart = null;
+      let reservationRangeEnd = null;
+      let toastTimer;
+      let maintenanceStorageAvailable = true;
+
+      const escapeHtml = value => String(value).replace(/[&<>"']/g, char => ({
+        '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+      })[char]);
+      const localDateString = date => {
+        const year = date.getFullYear();
+        const month = String(date.getMonth() + 1).padStart(2, '0');
+        const day = String(date.getDate()).padStart(2, '0');
+        return `${year}-${month}-${day}`;
+      };
+      selectedCalendarDate = localDateString(new Date());
+      const money = value => new Intl.NumberFormat('pt-BR', {
+        style: 'currency', currency: 'BRL'
+      }).format(value);
+      const parseCurrencyInput = value => Number(String(value || '').replace(/\./g, '').replace(',', '.')) || 0;
+      const isCancelled = booking => String(booking.status || '').toLocaleLowerCase('pt-BR').includes('cancel');
+      const paymentInfo = booking => {
+        const total = Number(booking.total) || 0;
+        const payments = Array.isArray(booking.payments) ? booking.payments : [];
+        const received = Math.min(total, Math.max(0, payments.reduce((sum, payment) => sum + (Number(payment.amount) || 0), 0) || Number(booking.received) || 0));
+        const methods = Array.from(new Set(payments.map(payment => {
+          const method = payment.method || booking.paymentMethod || 'PIX';
+          return method === 'Cartão de crédito' && Number(payment.installments) > 1
+            ? `${method}: ${payment.installments}x de ${money(Number(payment.installmentAmount) || Number(payment.amount) / Number(payment.installments))}`
+            : method;
+        })));
+        const methodSummary = methods.join(' + ') || booking.paymentMethod || 'PIX';
+        if (isCancelled(booking)) {
+          return { received, remaining: 0, label: 'Cancelada', methodSummary, paid: false, signal: false, pending: false };
+        }
+        if (total > 0 && received >= total) {
+          return { received, remaining: 0, label: `Pago via ${methodSummary}`, methodSummary, paid: true, signal: false, pending: false };
+        }
+        if (received > 0) {
+          return { received, remaining: total - received, label: `Sinal Confirmado • ${methodSummary}`, methodSummary, paid: false, signal: true, pending: false };
+        }
+        return { received: 0, remaining: total, label: 'Pendente', methodSummary: '', paid: false, signal: false, pending: true };
+      };
+      const showMessage = message => {
+        let toast = document.getElementById('villaToast');
+        if (!toast) {
+          toast = document.createElement('div');
+          toast.id = 'villaToast';
+          toast.className = 'fixed bottom-5 right-5 z-[90] max-w-sm rounded-xl border border-primary/30 bg-surface-container-high px-4 py-3 text-sm text-on-surface shadow-xl';
+          toast.setAttribute('role', 'status');
+          document.body.appendChild(toast);
+        }
+        toast.textContent = message;
+        toast.classList.remove('hidden');
+        clearTimeout(toastTimer);
+        toastTimer = setTimeout(() => toast.classList.add('hidden'), 3500);
+      };
+
+      let storageAvailable = true;
+      try {
+        const stored = localStorage.getItem(storageKey);
+        if (stored) {
+          const parsed = JSON.parse(stored);
+          if (!Array.isArray(parsed)) throw new Error('Os dados salvos não estão no formato esperado.');
+          savedBookings = parsed.filter(item =>
+            item && typeof item.id === 'string' &&
+            typeof item.guest === 'string' &&
+            typeof item.phone === 'string' &&
+            typeof item.start === 'string' &&
+            typeof item.end === 'string' &&
+            Number.isFinite(Number(item.total)) &&
+            typeof item.status === 'string'
+          ).map(item => {
+            const method = typeof item.paymentMethod === 'string' ? item.paymentMethod : 'PIX';
+            const payments = Array.isArray(item.payments)
+              ? item.payments.filter(payment =>
+                payment && Number.isFinite(Number(payment.amount)) &&
+                Number(payment.amount) > 0 && typeof payment.method === 'string'
+              ).map(payment => ({
+                amount: Number(payment.amount),
+                method: payment.method,
+                installments: payment.method === 'Cartão de crédito'
+                  ? Math.max(1, Math.min(12, Number(payment.installments) || 1))
+                  : 1,
+                installmentAmount: payment.method === 'Cartão de crédito'
+                  ? Number(payment.installmentAmount) || Number(payment.amount) / Math.max(1, Number(payment.installments) || 1)
+                  : Number(payment.amount),
+                date: typeof payment.date === 'string' ? payment.date : item.start
+              }))
+              : [];
+            if (!payments.length && Number(item.received) > 0) {
+              payments.push({
+                amount: Math.min(Number(item.total), Number(item.received)),
+                method,
+                installments: method === 'Cartão de crédito' ? Math.max(1, Math.min(12, Number(item.installments) || 1)) : 1,
+                installmentAmount: method === 'Cartão de crédito'
+                  ? Math.min(Number(item.total), Number(item.received)) / Math.max(1, Math.min(12, Number(item.installments) || 1))
+                  : Math.min(Number(item.total), Number(item.received)),
+                date: item.start
+              });
+            }
+            const received = Math.min(Number(item.total), payments.reduce((sum, payment) => sum + payment.amount, 0));
+            return { ...item, property: propertyName, received, paymentMethod: method, payments };
+          });
+          if (parsed.some(item => item && (
+            item.property !== propertyName ||
+            !Number.isFinite(Number(item.received)) ||
+            typeof item.paymentMethod !== 'string' ||
+            !Array.isArray(item.payments)
+          ))) {
+            localStorage.setItem(storageKey, JSON.stringify(savedBookings));
+          }
+        }
+      } catch (error) {
+        storageAvailable = false;
+        showMessage(`Não foi possível carregar as reservas salvas: ${error.message}`);
+      }
+      try {
+        const storedMaintenance = localStorage.getItem(maintenanceStorageKey);
+        if (storedMaintenance) {
+          const parsedMaintenance = JSON.parse(storedMaintenance);
+          if (!Array.isArray(parsedMaintenance)) throw new Error('Os dias de manutenção salvos não estão no formato esperado.');
+          maintenanceDates = parsedMaintenance.filter(date =>
+            typeof date === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(date) &&
+            !Number.isNaN(new Date(`${date}T12:00:00`).getTime())
+          );
+        }
+      } catch (error) {
+        maintenanceStorageAvailable = false;
+        showMessage(`Não foi possível carregar os dias de manutenção: ${error.message}`);
+      }
+
+      const statusStyle = status => {
+        const value = status.toLowerCase();
+        if (value.includes('pendente')) return 'bg-amber-500/15 text-amber-300';
+        if (value.includes('check-in')) return 'bg-cyan-500/15 text-cyan-300';
+        if (value.includes('concluída') || value.includes('concluida')) return 'bg-surface-container-highest text-on-surface-variant';
+        if (value.includes('cancelada')) return 'bg-red-500/15 text-red-300';
+        return 'bg-primary/15 text-primary';
+      };
+      const bookingRow = booking => {
+        const tr = document.createElement('tr');
+        tr.className = 'hover:bg-surface-container/60 transition-colors group';
+        tr.dataset.storageId = booking.id;
+        tr.dataset.start = booking.start;
+        const cancelled = isCancelled(booking);
+        const initials = booking.guest.trim().split(/\s+/).slice(0, 2).map(part => part[0] || '').join('').toUpperCase();
+        const dateFormat = value => new Date(`${value}T12:00:00`).toLocaleDateString('pt-BR', { day: '2-digit', month: 'short' });
+        const phoneDigits = booking.phone.replace(/\D/g, '');
+        const contact = phoneDigits
+          ? `<a class="w-8 h-8 rounded-lg bg-surface-container hover:bg-primary/20 hover:text-primary text-on-surface-variant flex items-center justify-center transition-colors" href="https://wa.me/${escapeHtml(phoneDigits)}" rel="noopener noreferrer" target="_blank" title="Conversar no WhatsApp"><span class="material-symbols-outlined text-base">chat</span></a>`
+          : '<span class="font-caption text-caption text-on-surface-variant">Telefone não informado</span>';
+        tr.innerHTML = `
+          <td class="py-3.5 pr-3"><div class="flex items-center gap-2.5"><div class="w-10 h-10 rounded-lg bg-primary/10 text-primary flex items-center justify-center"><span class="material-symbols-outlined">cottage</span></div><div class="flex flex-col min-w-0"><span class="font-label-sm text-label-sm font-bold text-on-surface truncate">${escapeHtml(propertyName)}</span><span class="font-caption text-caption text-tertiary font-mono">#${escapeHtml(booking.id)}</span></div></div></td>
+          <td class="py-3.5 px-3"><div class="flex items-center gap-2"><div class="w-8 h-8 rounded-full bg-primary/20 text-primary font-label-sm text-label-sm font-bold flex items-center justify-center">${escapeHtml(initials)}</div><div class="flex flex-col min-w-0"><span class="font-label-sm text-label-sm text-on-surface font-semibold truncate">${escapeHtml(booking.guest)}</span><span class="font-caption text-caption text-on-surface-variant truncate">${escapeHtml(booking.phone || 'Telefone não informado')}</span></div></div></td>
+          <td class="py-3.5 px-3"><div class="flex flex-col"><span class="font-label-sm text-label-sm font-semibold text-on-surface">${escapeHtml(dateFormat(booking.start))} - ${escapeHtml(dateFormat(booking.end))}</span><span class="font-caption text-caption text-on-surface-variant">${Math.max(1, Math.round((new Date(`${booking.end}T12:00:00`) - new Date(`${booking.start}T12:00:00`)) / 86400000))} diária(s)</span></div></td>
+          <td class="py-3.5 px-3"><div class="flex flex-col"><span class="font-label-sm text-label-sm font-bold text-on-surface sensitive-data" data-real-value="${escapeHtml(money(Number(booking.total)))}">${escapeHtml(money(Number(booking.total)))}</span><span class="font-caption text-caption text-primary">Valor total</span></div></td>
+          <td class="py-3.5 px-3"><span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full ${statusStyle(booking.status)} font-caption text-caption font-semibold"><span class="w-1.5 h-1.5 rounded-full bg-current"></span>${escapeHtml(booking.status)}</span>${cancelled && booking.cancellationReason ? `<span class="mt-1 block max-w-36 text-xs text-on-surface-variant">${escapeHtml(booking.cancellationReason)}${booking.cancellationNote ? ` • ${escapeHtml(booking.cancellationNote)}` : ''}</span>` : ''}</td>
+          <td class="py-3.5 pl-3 text-right"><div class="inline-flex items-center justify-end gap-1">${contact}<button class="w-8 h-8 rounded-lg ${cancelled ? 'hover:bg-primary/15 hover:text-primary' : 'hover:bg-red-500/15 hover:text-red-300'} text-on-surface-variant flex items-center justify-center transition-colors" type="button" title="${cancelled ? 'Reativar reserva' : 'Cancelar reserva'}" ${cancelled ? `data-reactivate-booking="${escapeHtml(booking.id)}"` : `data-cancel-booking="${escapeHtml(booking.id)}"`}><span class="material-symbols-outlined text-base">${cancelled ? 'restore' : 'event_busy'}</span></button><button class="w-8 h-8 rounded-lg hover:bg-surface-container-high text-on-surface-variant hover:text-on-surface flex items-center justify-center transition-colors" type="button" title="Excluir reserva" data-delete-booking="${escapeHtml(booking.id)}"><span class="material-symbols-outlined text-base">delete</span></button></div></td>`;
+        return tr;
+      };
+
+      const renderSavedBookings = () => {
+        document.querySelectorAll('tr[data-storage-id]').forEach(row => row.remove());
+        savedBookings.slice().reverse().forEach(booking => {
+          if (tableBody) tableBody.insertBefore(bookingRow(booking), tableBody.firstChild);
+        });
+      };
+      renderSavedBookings();
+
+      const allRows = () => tableBody ? Array.from(tableBody.querySelectorAll('tr:not([data-empty-row])')) : [];
+      const rowStatus = row => (row.cells[4] ? row.cells[4].textContent : '').trim().toLowerCase();
+      const matchesFilter = row => {
+        const status = rowStatus(row);
+        if (activeFilter === 'confirmada') return status.includes('confirmad') || status.includes('contrato assinado');
+        if (activeFilter === 'pendente') return status.includes('pendente');
+        if (activeFilter === 'hoje') return status.includes('check-in hoje') || row.dataset.start === localDateString(new Date());
+        if (activeFilter === 'concluida') return status.includes('concluída') || status.includes('concluida');
+        return true;
+      };
+      const updateTable = () => {
+        let emptyRow = tableBody && tableBody.querySelector('[data-empty-row]');
+        if (tableBody && !emptyRow) {
+          emptyRow = document.createElement('tr');
+          emptyRow.dataset.emptyRow = 'true';
+          emptyRow.innerHTML = '<td class="px-3 py-8 text-center text-on-surface-variant" colspan="6">Nenhuma reserva cadastrada. Use “+ Nova Reserva” para adicionar a primeira.</td>';
+          tableBody.appendChild(emptyRow);
+        }
+        const query = searchInput ? searchInput.value.trim().toLocaleLowerCase('pt-BR') : '';
+        allRows().forEach(row => {
+          const visible = matchesFilter(row) && row.textContent.toLocaleLowerCase('pt-BR').includes(query);
+          row.classList.toggle('hidden', !visible);
+        });
+        if (emptyRow) {
+          emptyRow.classList.toggle('hidden', allRows().length > 0);
+          if (allRows().length > 0 && !allRows().some(row => !row.classList.contains('hidden'))) {
+            emptyRow.querySelector('td').textContent = 'Nenhuma reserva corresponde aos filtros.';
+            emptyRow.classList.remove('hidden');
+          } else if (allRows().length === 0) {
+            emptyRow.querySelector('td').textContent = 'Nenhuma reserva cadastrada. Use “+ Nova Reserva” para adicionar a primeira.';
+          }
+        }
+        document.querySelectorAll('.filter-pill').forEach(pill => {
+          const kind = pill.dataset.filter;
+          const amount = allRows().filter(row => {
+            const previous = activeFilter;
+            activeFilter = kind;
+            const match = matchesFilter(row);
+            activeFilter = previous;
+            return match;
+          }).length;
+          const label = kind === 'pendente' ? 'Pendentes Pgto' :
+            kind === 'hoje' ? 'Check-in Hoje' :
+            kind === 'concluida' ? 'Concluídas' :
+            kind === 'confirmada' ? 'Confirmadas' : 'Todas';
+          pill.textContent = `${label} (${amount})`;
+        });
+        const visibleCount = allRows().filter(row => !row.classList.contains('hidden')).length;
+        const rangeWrap = Array.from(document.querySelectorAll('main .font-caption'))
+          .find(node => node.textContent.trim().startsWith('Mostrando'));
+        if (rangeWrap) {
+          rangeWrap.innerHTML = `Mostrando <strong class="text-on-surface font-semibold">${visibleCount ? `1 a ${visibleCount}` : '0'}</strong> de <strong class="text-on-surface font-semibold">${allRows().length}</strong> reservas registradas`;
+        }
+      };
+      if (searchInput) {
+        searchInput.id = 'reservationSearch';
+        searchInput.addEventListener('input', updateTable);
+      }
+      pills.forEach(pill => pill.addEventListener('click', () => {
+        activeFilter = pill.dataset.filter || 'all';
+        updateTable();
+      }));
+
+      const findCard = label => Array.from(document.querySelectorAll('main span'))
+        .find(node => node.textContent.trim() === label)?.closest('.p-space-lg');
+      const updateMetrics = () => {
+        const amounts = allRows().filter(row => !rowStatus(row).includes('cancel')).map(row => {
+          const value = row.querySelector('[data-real-value]');
+          if (!value) return 0;
+          return Number(value.dataset.realValue.replace(/[^\d,]/g, '').replace(',', '.')) || 0;
+        });
+        const revenue = amounts.reduce((sum, value) => sum + value, 0);
+        const statusActive = status => !status.includes('conclu') && !status.includes('cancel');
+        const activeCount = allRows().filter(row => statusActive(rowStatus(row))).length;
+        const revenueCard = findCard('Faturamento Previsto');
+        const revenueValue = revenueCard && revenueCard.querySelector('.sensitive-data');
+        if (revenueValue) {
+          revenueValue.dataset.realValue = money(revenue);
+          revenueValue.textContent = isHidden ? '••••••••' : money(revenue);
+        }
+        const activeCard = findCard('Reservas Ativas');
+        const count = activeCard && activeCard.querySelector('.font-headline-lg');
+        if (count) count.textContent = String(activeCount);
+        const activeLabel = document.querySelector('#reservationsSection .font-mono');
+        if (activeLabel) activeLabel.textContent = `${activeCount} Reservas Ativas`;
+      };
+      updateMetrics();
+      updateTable();
+
+      const modal = document.createElement('div');
+      modal.id = 'reservationModal';
+      modal.className = 'fixed inset-0 z-[80] hidden items-center justify-center overflow-y-auto bg-black/70 p-4 backdrop-blur-sm';
+      modal.innerHTML = `
+        <section role="dialog" aria-modal="true" aria-labelledby="reservationModalTitle" class="my-auto w-full max-w-2xl rounded-2xl border border-outline-variant bg-surface-container-low p-5 shadow-2xl sm:p-7">
+          <div class="mb-6 flex items-start justify-between gap-4">
+            <div><span class="material-symbols-outlined mb-2 text-3xl text-primary">event_available</span><h2 id="reservationModalTitle" class="text-xl font-bold text-on-surface">Nova Reserva</h2><p class="mt-1 text-sm text-on-surface-variant">Preencha os dados para registrar a hospedagem.</p></div>
+            <button type="button" data-close-modal class="rounded-lg p-2 text-on-surface-variant hover:bg-surface-container hover:text-on-surface" aria-label="Fechar"><span class="material-symbols-outlined">close</span></button>
+          </div>
+          <form id="reservationForm" class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+            <div class="flex items-center gap-2 rounded-xl border border-outline-variant bg-surface-container px-3 py-3 text-sm text-on-surface sm:col-span-2"><span class="material-symbols-outlined text-primary">cottage</span><span>Chácara: <strong class="font-semibold text-on-surface">Villa Verde</strong></span></div>
+            <label class="flex flex-col gap-1.5 text-sm text-on-surface-variant">Nome do Hóspede<input name="guest" required maxlength="100" autocomplete="name" class="h-11 rounded-xl border border-outline-variant bg-surface-container px-3 text-on-surface outline-none focus:ring-1 focus:ring-primary" placeholder="Nome completo"/></label>
+            <label class="flex flex-col gap-1.5 text-sm text-on-surface-variant">Telefone (opcional)<input name="phone" type="tel" maxlength="16" inputmode="numeric" autocomplete="tel" class="h-11 rounded-xl border border-outline-variant bg-surface-container px-3 text-on-surface outline-none focus:ring-1 focus:ring-primary" placeholder="(11) 99999-9999"/></label>
+            <label class="flex flex-col gap-1.5 text-sm text-on-surface-variant">Data de Início<input name="start" type="date" required class="h-11 rounded-xl border border-outline-variant bg-surface-container px-3 text-on-surface outline-none focus:ring-1 focus:ring-primary"/></label>
+            <label class="flex flex-col gap-1.5 text-sm text-on-surface-variant">Data de Fim<input name="end" type="date" required class="h-11 rounded-xl border border-outline-variant bg-surface-container px-3 text-on-surface outline-none focus:ring-1 focus:ring-primary"/></label>
+            <label class="flex flex-col gap-1.5 text-sm text-on-surface-variant">Valor Total (R$)<input name="total" type="text" inputmode="numeric" required class="h-11 rounded-xl border border-outline-variant bg-surface-container px-3 text-on-surface outline-none focus:ring-1 focus:ring-primary" placeholder="0,00" aria-describedby="totalHelp"/><span id="totalHelp" class="font-caption text-caption text-on-surface-variant">A máscara formata o valor e os centavos automaticamente.</span></label>
+            <label class="flex flex-col gap-1.5 text-sm text-on-surface-variant"><span data-reservation-received-label>Valor já recebido (R$)</span><input name="received" type="text" inputmode="numeric" class="h-11 rounded-xl border border-outline-variant bg-surface-container px-3 text-on-surface outline-none focus:ring-1 focus:ring-primary" placeholder="0,00"/><span data-reservation-payment-preview class="font-caption text-caption text-on-surface-variant">Informe o sinal total ou deixe em branco.</span></label>
+            <label class="flex flex-col gap-1.5 text-sm text-on-surface-variant">Forma de pagamento<select name="paymentMethod" class="h-11 rounded-xl border border-outline-variant bg-surface-container px-3 text-on-surface outline-none focus:ring-1 focus:ring-primary"><option>PIX</option><option>Cartão de crédito</option><option>Cartão de débito</option><option>Transferência</option><option>Dinheiro</option></select></label>
+            <label data-reservation-installments-wrap class="hidden flex-col gap-1.5 text-sm text-on-surface-variant">Parcelas do valor recebido<select name="installments" class="h-11 rounded-xl border border-outline-variant bg-surface-container px-3 text-on-surface outline-none focus:ring-1 focus:ring-primary">${Array.from({ length: 12 }, (_, index) => `<option value="${index + 1}">${index + 1} ${index === 0 ? 'parcela' : 'parcelas'}</option>`).join('')}</select></label>
+            <label class="flex flex-col gap-1.5 text-sm text-on-surface-variant">Status<select name="status" required class="h-11 rounded-xl border border-outline-variant bg-surface-container px-3 text-on-surface outline-none focus:ring-1 focus:ring-primary"><option>Confirmada</option><option>Pendente</option><option>Check-in Hoje</option><option>Concluída</option><option>Cancelada</option></select></label>
+            <div class="mt-2 flex flex-col-reverse gap-2 sm:col-span-2 sm:flex-row sm:justify-end">
+              <button type="button" data-close-modal class="h-11 rounded-xl px-5 text-sm font-semibold text-on-surface-variant hover:bg-surface-container">Cancelar</button>
+              <button type="submit" class="h-11 rounded-xl bg-primary-container px-5 text-sm font-semibold text-on-primary-container transition-colors hover:bg-secondary-container">Salvar Reserva</button>
+            </div>
+          </form>
+        </section>`;
+      document.body.appendChild(modal);
+      const paymentModal = document.createElement('div');
+      paymentModal.id = 'paymentModal';
+      paymentModal.className = 'fixed inset-0 z-[85] hidden items-center justify-center overflow-y-auto bg-black/70 p-4 backdrop-blur-sm';
+      paymentModal.innerHTML = `
+        <section role="dialog" aria-modal="true" aria-labelledby="paymentModalTitle" class="my-auto w-full max-w-lg rounded-2xl border border-outline-variant bg-surface-container-low p-5 shadow-2xl sm:p-7">
+          <div class="mb-6 flex items-start justify-between gap-4">
+            <div><span class="material-symbols-outlined mb-2 text-3xl text-primary">payments</span><h2 id="paymentModalTitle" class="text-xl font-bold text-on-surface">Registrar recebimento</h2><p id="paymentModalDescription" class="mt-1 text-sm text-on-surface-variant"></p></div>
+            <button type="button" data-close-payment class="rounded-lg p-2 text-on-surface-variant hover:bg-surface-container hover:text-on-surface" aria-label="Fechar"><span class="material-symbols-outlined">close</span></button>
+          </div>
+          <form id="paymentForm" class="flex flex-col gap-4">
+            <label class="flex flex-col gap-1.5 text-sm text-on-surface-variant"><span data-payment-amount-label>Valor recebido (R$)</span><input name="amount" type="text" inputmode="numeric" required class="h-11 rounded-xl border border-outline-variant bg-surface-container px-3 text-on-surface outline-none focus:ring-1 focus:ring-primary"/><span data-payment-preview class="font-caption text-caption text-on-surface-variant"></span></label>
+            <label class="flex flex-col gap-1.5 text-sm text-on-surface-variant">Método de pagamento<select name="method" required class="h-11 rounded-xl border border-outline-variant bg-surface-container px-3 text-on-surface outline-none focus:ring-1 focus:ring-primary"><option>PIX</option><option>Cartão de crédito</option><option>Cartão de débito</option><option>Transferência</option><option>Dinheiro</option></select></label>
+            <label data-payment-installments-wrap class="hidden flex-col gap-1.5 text-sm text-on-surface-variant">Parcelas<select name="installments" class="h-11 rounded-xl border border-outline-variant bg-surface-container px-3 text-on-surface outline-none focus:ring-1 focus:ring-primary">${Array.from({ length: 12 }, (_, index) => `<option value="${index + 1}">${index + 1} ${index === 0 ? 'parcela' : 'parcelas'}</option>`).join('')}</select></label>
+            <div class="mt-2 flex flex-col-reverse gap-2 sm:flex-row sm:justify-end">
+              <button type="button" data-close-payment class="h-11 rounded-xl px-5 text-sm font-semibold text-on-surface-variant hover:bg-surface-container">Cancelar</button>
+              <button type="submit" class="h-11 rounded-xl bg-primary-container px-5 text-sm font-semibold text-on-primary-container transition-colors hover:bg-secondary-container">Salvar recebimento</button>
+            </div>
+          </form>
+        </section>`;
+      document.body.appendChild(paymentModal);
+      const cancellationModal = document.createElement('div');
+      cancellationModal.id = 'cancellationModal';
+      cancellationModal.className = 'fixed inset-0 z-[90] hidden items-center justify-center overflow-y-auto bg-black/70 p-4 backdrop-blur-sm';
+      cancellationModal.innerHTML = `
+        <section role="dialog" aria-modal="true" aria-labelledby="cancellationModalTitle" class="my-auto w-full max-w-lg rounded-2xl border border-outline-variant bg-surface-container-low p-5 shadow-2xl sm:p-7">
+          <div class="mb-6 flex items-start justify-between gap-4">
+            <div><span class="material-symbols-outlined mb-2 text-3xl text-red-300">event_busy</span><h2 id="cancellationModalTitle" class="text-xl font-bold text-on-surface">Cancelar reserva</h2><p id="cancellationModalDescription" class="mt-1 text-sm text-on-surface-variant"></p></div>
+            <button type="button" data-close-cancellation class="rounded-lg p-2 text-on-surface-variant hover:bg-surface-container hover:text-on-surface" aria-label="Fechar"><span class="material-symbols-outlined">close</span></button>
+          </div>
+          <form id="cancellationForm" class="flex flex-col gap-4">
+            <label class="flex flex-col gap-1.5 text-sm text-on-surface-variant">Motivo<select name="reason" required class="h-11 rounded-xl border border-outline-variant bg-surface-container px-3 text-on-surface outline-none focus:ring-1 focus:ring-primary"><option value="Não pagamento">Não pagamento</option><option value="Cancelamento pelo hóspede">Cancelamento pelo hóspede</option><option value="Cancelamento pelo responsável">Cancelamento pelo responsável</option><option value="Outro">Outro</option></select></label>
+            <label class="flex flex-col gap-1.5 text-sm text-on-surface-variant">Observação (opcional)<input name="note" maxlength="160" class="h-11 rounded-xl border border-outline-variant bg-surface-container px-3 text-on-surface outline-none focus:ring-1 focus:ring-primary" placeholder="Detalhes do cancelamento"/></label>
+            <p class="rounded-xl border border-red-400/20 bg-red-500/10 p-3 text-xs leading-relaxed text-on-surface-variant">A reserva será removida dos valores do financeiro e liberará as datas no calendário. O registro continuará no histórico e poderá ser reativado.</p>
+            <div class="mt-2 flex flex-col-reverse gap-2 sm:flex-row sm:justify-end">
+              <button type="button" data-close-cancellation class="h-11 rounded-xl px-5 text-sm font-semibold text-on-surface-variant hover:bg-surface-container">Voltar</button>
+              <button type="submit" class="h-11 rounded-xl bg-red-500/15 px-5 text-sm font-semibold text-red-200 transition-colors hover:bg-red-500/25">Confirmar cancelamento</button>
+            </div>
+          </form>
+        </section>`;
+      document.body.appendChild(cancellationModal);
+      const paymentForm = paymentModal.querySelector('#paymentForm');
+      const paymentAmountInput = paymentForm.elements.amount;
+      const paymentMethodInput = paymentForm.elements.method;
+      const paymentInstallmentsWrap = paymentForm.querySelector('[data-payment-installments-wrap]');
+      const paymentAmountLabel = paymentForm.querySelector('[data-payment-amount-label]');
+      const paymentPreview = paymentForm.querySelector('[data-payment-preview]');
+      let paymentBookingId = null;
+      const cancellationForm = cancellationModal.querySelector('#cancellationForm');
+      let cancellationBookingId = null;
+      const closeCancellationModal = () => {
+        cancellationModal.classList.add('hidden');
+        cancellationModal.classList.remove('flex');
+        cancellationForm.reset();
+        cancellationBookingId = null;
+      };
+      const openCancellationModal = booking => {
+        if (!booking || isCancelled(booking)) return;
+        cancellationBookingId = booking.id;
+        cancellationModal.querySelector('#cancellationModalDescription').textContent =
+          `${booking.id} • ${booking.guest} • ${money(Number(booking.total))}`;
+        cancellationModal.classList.remove('hidden');
+        cancellationModal.classList.add('flex');
+        cancellationForm.elements.reason.focus();
+      };
+      cancellationModal.addEventListener('click', event => {
+        if (event.target === cancellationModal || event.target.closest('[data-close-cancellation]')) closeCancellationModal();
+      });
+      cancellationForm.addEventListener('submit', event => {
+        event.preventDefault();
+        if (!storageAvailable) {
+          showMessage('O armazenamento local não está disponível. O cancelamento não foi salvo.');
+          return;
+        }
+        const booking = savedBookings.find(item => item.id === cancellationBookingId);
+        if (!booking || isCancelled(booking)) {
+          closeCancellationModal();
+          showMessage('A reserva não foi encontrada ou já está cancelada.');
+          return;
+        }
+        const updatedBookings = savedBookings.map(item => item.id === booking.id
+          ? {
+            ...item,
+            statusBeforeCancellation: item.status,
+            status: 'Cancelada',
+            cancellationReason: cancellationForm.elements.reason.value,
+            cancellationNote: cancellationForm.elements.note.value.trim(),
+            cancelledAt: localDateString(new Date())
+          }
+          : item);
+        try {
+          localStorage.setItem(storageKey, JSON.stringify(updatedBookings));
+          savedBookings = updatedBookings;
+          closeCancellationModal();
+          renderSavedBookings();
+          updateMetrics();
+          updateTable();
+          renderCalendarGrid();
+          renderCalendarSelection();
+          renderRoute(document.querySelector('nav a[aria-current="page"]')?.dataset.path || 'reservas');
+          showMessage('Reserva cancelada. Removida do financeiro e do calendário; histórico preservado.');
+        } catch (error) {
+          showMessage(`Não foi possível cancelar a reserva: ${error.message}`);
+        }
+      });
+      const formatCurrencyInput = input => {
+        const digits = input.value.replace(/\D/g, '');
+        input.value = digits
+          ? new Intl.NumberFormat('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 }).format(Number(digits) / 100)
+          : '';
+      };
+      const updatePaymentInstallments = () => {
+        const isCredit = paymentMethodInput.value === 'Cartão de crédito';
+        paymentInstallmentsWrap.classList.toggle('hidden', !isCredit);
+        paymentInstallmentsWrap.classList.toggle('flex', isCredit);
+        paymentAmountLabel.textContent = isCredit ? 'Valor de cada parcela (R$)' : 'Valor recebido (R$)';
+        const installmentAmount = parseCurrencyInput(paymentAmountInput.value);
+        const installments = Number(paymentForm.elements.installments.value) || 1;
+        paymentPreview.textContent = isCredit && installmentAmount > 0
+          ? `${installments}x de ${money(installmentAmount)} = ${money(installmentAmount * installments)}`
+          : '';
+      };
+      paymentAmountInput.addEventListener('input', () => {
+        formatCurrencyInput(paymentAmountInput);
+        updatePaymentInstallments();
+      });
+      paymentMethodInput.addEventListener('change', updatePaymentInstallments);
+      paymentForm.elements.installments.addEventListener('change', updatePaymentInstallments);
+      const closePaymentModal = () => {
+        paymentModal.classList.add('hidden');
+        paymentModal.classList.remove('flex');
+        paymentForm.reset();
+        paymentBookingId = null;
+        updatePaymentInstallments();
+      };
+      const openPaymentModal = booking => {
+        const payment = paymentInfo(booking);
+        paymentBookingId = booking.id;
+        paymentModal.querySelector('#paymentModalDescription').textContent =
+          `${booking.guest} • Saldo restante: ${money(payment.remaining)}`;
+        paymentAmountInput.value = new Intl.NumberFormat('pt-BR', {
+          minimumFractionDigits: 2, maximumFractionDigits: 2
+        }).format(payment.remaining);
+        paymentMethodInput.value = booking.paymentMethod || 'PIX';
+        paymentForm.elements.installments.value = '1';
+        updatePaymentInstallments();
+        paymentModal.classList.remove('hidden');
+        paymentModal.classList.add('flex');
+        paymentAmountInput.focus();
+      };
+      paymentModal.addEventListener('click', event => {
+        if (event.target === paymentModal || event.target.closest('[data-close-payment]')) closePaymentModal();
+      });
+      paymentForm.addEventListener('submit', event => {
+        event.preventDefault();
+        if (!storageAvailable) {
+          showMessage('O armazenamento local não está disponível. O recebimento não foi salvo.');
+          return;
+        }
+        const booking = savedBookings.find(item => item.id === paymentBookingId);
+        if (!booking) {
+          closePaymentModal();
+          showMessage('A reserva não foi encontrada. Atualize a tela e tente novamente.');
+          return;
+        }
+        const installmentAmount = parseCurrencyInput(paymentAmountInput.value);
+        const method = paymentMethodInput.value;
+        const installments = method === 'Cartão de crédito' ? Number(paymentForm.elements.installments.value) : 1;
+        const amount = Math.round(installmentAmount * installments * 100) / 100;
+        const payment = paymentInfo(booking);
+        if (!Number.isFinite(amount) || amount <= 0 || amount > payment.remaining) {
+          paymentAmountInput.setCustomValidity(method === 'Cartão de crédito'
+            ? `O total das parcelas deve ser maior que zero e não ultrapassar o saldo de ${money(payment.remaining)}.`
+            : `Informe um valor maior que zero e até ${money(payment.remaining)}.`);
+          paymentAmountInput.reportValidity();
+          return;
+        }
+        paymentAmountInput.setCustomValidity('');
+        const payments = Array.isArray(booking.payments) ? [...booking.payments] : [];
+        if (!payments.length && payment.received > 0) {
+          payments.push({
+            amount: payment.received,
+            method: booking.paymentMethod || 'PIX',
+            installments: booking.installments || 1,
+            installmentAmount: booking.installmentAmount || payment.received / (booking.installments || 1),
+            date: booking.start
+          });
+        }
+        payments.push({
+          amount,
+          method,
+          installments,
+          installmentAmount: method === 'Cartão de crédito' ? installmentAmount : amount,
+          date: localDateString(new Date())
+        });
+        const updatedBookings = savedBookings.map(item => item.id === booking.id
+          ? { ...item, payments, received: payment.received + amount, paymentMethod: method, installments }
+          : item);
+        try {
+          localStorage.setItem(storageKey, JSON.stringify(updatedBookings));
+          savedBookings = updatedBookings;
+          updateMetrics();
+          updateTable();
+          closePaymentModal();
+          renderFinancePage();
+          showMessage(method === 'Cartão de crédito' && installments > 1
+            ? `Recebimento de ${money(amount)} registrado: ${installments}x de ${money(installmentAmount)}.`
+            : `Recebimento de ${money(amount)} via ${method} registrado.`);
+        } catch (error) {
+          showMessage(`Não foi possível salvar o recebimento: ${error.message}`);
+        }
+      });
+      const form = modal.querySelector('form');
+      const phoneInput = form.elements.phone;
+      const totalInput = form.elements.total;
+      const receivedInput = form.elements.received;
+      const reservationInstallmentsWrap = form.querySelector('[data-reservation-installments-wrap]');
+      const updateReservationInstallments = () => {
+        const isCredit = form.elements.paymentMethod.value === 'Cartão de crédito';
+        reservationInstallmentsWrap.classList.toggle('hidden', !isCredit);
+        reservationInstallmentsWrap.classList.toggle('flex', isCredit);
+        const installmentAmount = parseCurrencyInput(receivedInput.value);
+        const installments = Number(form.elements.installments.value) || 1;
+        form.querySelector('[data-reservation-received-label]').textContent =
+          isCredit ? 'Valor de cada parcela do sinal (R$)' : 'Valor já recebido (R$)';
+        form.querySelector('[data-reservation-payment-preview]').textContent = isCredit && installmentAmount > 0
+          ? `${installments}x de ${money(installmentAmount)} = ${money(installmentAmount * installments)} no total`
+          : isCredit ? 'Informe o valor de cada parcela.' : 'Informe o sinal total ou deixe em branco.';
+      };
+      form.elements.paymentMethod.addEventListener('change', updateReservationInstallments);
+      form.elements.installments.addEventListener('change', updateReservationInstallments);
+      updateReservationInstallments();
+      const formatPhone = value => {
+        const digits = value.replace(/\D/g, '').slice(0, 11);
+        if (!digits) return '';
+        if (digits.length <= 2) return `(${digits}`;
+        const areaCode = digits.slice(0, 2);
+        const number = digits.slice(2);
+        const splitAt = digits.length > 10 ? 5 : 4;
+        return `(${areaCode}) ${number.length > splitAt ? `${number.slice(0, splitAt)}-${number.slice(splitAt)}` : number}`;
+      };
+      phoneInput.addEventListener('input', () => {
+        phoneInput.value = formatPhone(phoneInput.value);
+        const digits = phoneInput.value.replace(/\D/g, '');
+        phoneInput.setCustomValidity(digits && digits.length !== 10 && digits.length !== 11
+          ? 'Informe um telefone com DDD e 8 ou 9 dígitos.'
+          : '');
+      });
+      totalInput.addEventListener('input', () => {
+        const digits = totalInput.value.replace(/\D/g, '');
+        totalInput.value = digits
+          ? new Intl.NumberFormat('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 }).format(Number(digits) / 100)
+          : '';
+      });
+      receivedInput.addEventListener('input', () => {
+        const digits = receivedInput.value.replace(/\D/g, '');
+        receivedInput.value = digits
+          ? new Intl.NumberFormat('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 }).format(Number(digits) / 100)
+          : '';
+        updateReservationInstallments();
+      });
+      const closeModal = () => {
+        modal.classList.add('hidden');
+        modal.classList.remove('flex');
+        form.reset();
+        updateReservationInstallments();
+      };
+      const openModal = (startDate, endDate) => {
+        modal.classList.remove('hidden');
+        modal.classList.add('flex');
+        form.elements.start.value = startDate || localDateString(new Date());
+        form.elements.end.value = endDate || localDateString(new Date(Date.now() + 86400000));
+        form.elements.end.min = form.elements.start.value;
+        form.elements.guest.focus();
+      };
+      document.querySelectorAll('button').forEach(button => {
+        if (button.textContent.toLocaleLowerCase('pt-BR').includes('nova reserva')) button.dataset.openReservation = 'true';
+      });
+      document.addEventListener('click', event => {
+        const target = event.target.closest('[data-open-reservation]');
+        if (target) {
+          reservationRangeStart = null;
+          reservationRangeEnd = null;
+          renderReservationsCalendar();
+          openModal();
+        }
+        if (event.target.closest('[data-close-modal]')) closeModal();
+        const homeCalendarDate = event.target.closest('[data-home-calendar-date]');
+        if (homeCalendarDate) {
+          selectedCalendarDate = homeCalendarDate.dataset.homeCalendarDate;
+          const dateStatus = calendarStatus(selectedCalendarDate);
+          if (!reservationRangeStart || reservationRangeEnd || selectedCalendarDate <= reservationRangeStart) {
+            if (dateStatus === 'maintenance' || getCalendarBookings(selectedCalendarDate).length) {
+              showMessage('Essa data não está disponível para iniciar uma reserva.');
+              return;
+            }
+            reservationRangeStart = selectedCalendarDate;
+            reservationRangeEnd = null;
+          } else {
+            const conflict = savedBookings.find(booking =>
+              !isCancelled(booking) &&
+              reservationRangeStart < booking.end &&
+              booking.start < selectedCalendarDate
+            );
+            const maintenanceConflict = maintenanceDates.find(date =>
+              reservationRangeStart <= date && date < selectedCalendarDate
+            );
+            if (conflict || maintenanceConflict) {
+              showMessage(conflict
+                ? `O período conflita com a reserva ${conflict.id}. Escolha outra data de saída.`
+                : `O período inclui manutenção em ${formatCalendarDate(maintenanceConflict)}.`);
+              renderReservationsCalendar();
+              return;
+            }
+            reservationRangeEnd = selectedCalendarDate;
+            calendarMonth = new Date(
+              new Date(`${selectedCalendarDate}T12:00:00`).getFullYear(),
+              new Date(`${selectedCalendarDate}T12:00:00`).getMonth(),
+              1
+            );
+            renderCalendarGrid();
+            renderCalendarSelection();
+            openModal(reservationRangeStart, reservationRangeEnd);
+            return;
+          }
+          renderCalendarGrid();
+          renderCalendarSelection();
+          return;
+        }
+        const homeCalendarNav = event.target.closest('#calendarGridWrapper [data-calendar-nav]');
+        if (homeCalendarNav) {
+          navigateCalendar(homeCalendarNav.dataset.calendarNav);
+          return;
+        }
+        const cancelButton = event.target.closest('[data-cancel-booking], [data-finance-cancel]');
+        if (cancelButton) {
+          const bookingId = cancelButton.dataset.cancelBooking || cancelButton.dataset.financeCancel;
+          openCancellationModal(savedBookings.find(booking => booking.id === bookingId));
+          return;
+        }
+        const reactivateButton = event.target.closest('[data-reactivate-booking]');
+        if (reactivateButton) {
+          if (!storageAvailable) {
+            showMessage('O armazenamento local não está disponível. A reserva não foi reativada.');
+            return;
+          }
+          const booking = savedBookings.find(item => item.id === reactivateButton.dataset.reactivateBooking);
+          if (!booking || !isCancelled(booking)) return;
+          const conflict = savedBookings.find(item =>
+            item.id !== booking.id &&
+            !isCancelled(item) &&
+            booking.start < item.end &&
+            item.start < booking.end
+          );
+          const maintenanceConflict = maintenanceDates.find(date => booking.start <= date && date < booking.end);
+          if (conflict || maintenanceConflict) {
+            showMessage(conflict
+              ? `Não foi possível reativar: o período conflita com a reserva ${conflict.id}.`
+              : `Não foi possível reativar: ${formatCalendarDate(maintenanceConflict)} está bloqueado para manutenção.`);
+            return;
+          }
+          const updatedBookings = savedBookings.map(item => {
+            if (item.id !== booking.id) return item;
+            const restored = { ...item, status: item.statusBeforeCancellation || 'Confirmada' };
+            delete restored.statusBeforeCancellation;
+            delete restored.cancellationReason;
+            delete restored.cancellationNote;
+            delete restored.cancelledAt;
+            return restored;
+          });
+          try {
+            localStorage.setItem(storageKey, JSON.stringify(updatedBookings));
+            savedBookings = updatedBookings;
+            renderSavedBookings();
+            updateMetrics();
+            updateTable();
+            renderCalendarGrid();
+            renderCalendarSelection();
+            renderRoute(document.querySelector('nav a[aria-current="page"]')?.dataset.path || 'reservas');
+            showMessage('Reserva reativada e incluída novamente no financeiro e no calendário.');
+          } catch (error) {
+            showMessage(`Não foi possível reativar a reserva: ${error.message}`);
+          }
+          return;
+        }
+        const deleteButton = event.target.closest('[data-delete-booking]');
+        if (deleteButton) {
+          const updatedBookings = savedBookings.filter(booking => booking.id !== deleteButton.dataset.deleteBooking);
+          try {
+            localStorage.setItem(storageKey, JSON.stringify(updatedBookings));
+            savedBookings = updatedBookings;
+            renderSavedBookings();
+            updateMetrics();
+            updateTable();
+            renderCalendarGrid();
+            renderCalendarSelection();
+            renderRoute(document.querySelector('nav a[aria-current="page"]')?.dataset.path || 'reservas');
+            showMessage('Reserva removida.');
+          } catch (error) {
+            showMessage(`Não foi possível atualizar as reservas salvas: ${error.message}`);
+          }
+        }
+      });
+      modal.addEventListener('click', event => {
+        if (event.target === modal) closeModal();
+      });
+      document.addEventListener('keydown', event => {
+        if (event.key === 'Escape' && !modal.classList.contains('hidden')) closeModal();
+        if (event.key === 'Escape' && !paymentModal.classList.contains('hidden')) closePaymentModal();
+        if (event.key === 'Escape' && !cancellationModal.classList.contains('hidden')) closeCancellationModal();
+      });
+      form.elements.start.addEventListener('change', () => {
+        form.elements.end.min = form.elements.start.value;
+        if (form.elements.start.value) {
+          reservationRangeStart = form.elements.start.value;
+          reservationRangeEnd = form.elements.end.value > reservationRangeStart ? form.elements.end.value : null;
+          selectedCalendarDate = reservationRangeStart;
+          const date = new Date(`${reservationRangeStart}T12:00:00`);
+          calendarMonth = new Date(date.getFullYear(), date.getMonth(), 1);
+          renderCalendarGrid();
+          renderCalendarSelection();
+        }
+      });
+      form.elements.end.addEventListener('change', () => {
+        reservationRangeStart = form.elements.start.value || null;
+        reservationRangeEnd = form.elements.end.value > reservationRangeStart ? form.elements.end.value : null;
+        renderReservationsCalendar();
+      });
+      form.addEventListener('submit', event => {
+        event.preventDefault();
+        if (!storageAvailable) {
+          showMessage('O armazenamento local não está disponível. A reserva não foi salva.');
+          return;
+        }
+        const formData = new FormData(form);
+        const start = String(formData.get('start'));
+        const end = String(formData.get('end'));
+        if (end <= start) {
+          form.elements.end.setCustomValidity('A data de fim deve ser posterior à data de início.');
+          form.elements.end.reportValidity();
+          return;
+        }
+        form.elements.end.setCustomValidity('');
+        const conflictingBooking = savedBookings.find(booking =>
+          !isCancelled(booking) &&
+          start < booking.end &&
+          booking.start < end
+        );
+        if (conflictingBooking) {
+          form.elements.end.setCustomValidity(`O período conflita com a reserva ${conflictingBooking.id}.`);
+          form.elements.end.reportValidity();
+          return;
+        }
+        const maintenanceConflict = maintenanceDates.find(date => start <= date && date < end);
+        if (maintenanceConflict) {
+          form.elements.end.setCustomValidity(`O período inclui uma data bloqueada para manutenção (${formatCalendarDate(maintenanceConflict)}).`);
+          form.elements.end.reportValidity();
+          return;
+        }
+        const total = Number(String(formData.get('total')).replace(/\./g, '').replace(',', '.'));
+        if (!Number.isFinite(total) || total <= 0) {
+          totalInput.setCustomValidity('Informe um valor maior que zero.');
+          totalInput.reportValidity();
+          return;
+        }
+        totalInput.setCustomValidity('');
+        const receivedValue = String(formData.get('received') || '');
+        const installmentAmount = parseCurrencyInput(receivedValue);
+        const method = String(formData.get('paymentMethod'));
+        const installments = method === 'Cartão de crédito' ? Number(formData.get('installments')) || 1 : 1;
+        const received = Math.round(installmentAmount * installments * 100) / 100;
+        if (!Number.isFinite(received) || received < 0 || received > total) {
+          receivedInput.setCustomValidity('O valor recebido deve estar entre zero e o valor total da reserva.');
+          receivedInput.reportValidity();
+          return;
+        }
+        receivedInput.setCustomValidity('');
+        const nextNumber = allRows().reduce((highest, row) => {
+          const number = Number((row.textContent.match(/VR-(\d+)/) || [])[1]) || 0;
+          return Math.max(highest, number);
+        }, -1) + 1;
+        const booking = {
+          id: `VR-${nextNumber}`,
+          property: propertyName,
+          guest: String(formData.get('guest')).trim(),
+          phone: String(formData.get('phone')).trim(),
+          start,
+          end,
+          total,
+          received,
+          paymentMethod: method,
+          installments,
+          installmentAmount: method === 'Cartão de crédito' ? installmentAmount : received,
+          payments: received > 0 ? [{
+            amount: received,
+            method,
+            installments,
+            installmentAmount: method === 'Cartão de crédito' ? installmentAmount : received,
+            date: localDateString(new Date())
+          }] : [],
+          status: String(formData.get('status'))
+        };
+        savedBookings.push(booking);
+        try {
+          localStorage.setItem(storageKey, JSON.stringify(savedBookings));
+          reservationRangeStart = null;
+          reservationRangeEnd = null;
+          renderSavedBookings();
+          updateMetrics();
+          updateTable();
+          renderCalendarGrid();
+          renderCalendarSelection();
+          closeModal();
+          showMessage('Reserva salva com sucesso.');
+          if (document.querySelector('nav a[aria-current="page"]')?.dataset.path !== 'reservas') {
+            navigateTo('reservas');
+          }
+        } catch (error) {
+          savedBookings.pop();
+          showMessage(`Não foi possível salvar a reserva: ${error.message}`);
+        }
+      });
+
+      let routePanel = null;
+      if (main && dashboard) {
+        routePanel = document.createElement('div');
+        routePanel.id = 'routePanel';
+        routePanel.className = 'hidden';
+        main.appendChild(routePanel);
+      }
+      const getCalendarBookings = date => savedBookings.filter(booking =>
+        !isCancelled(booking) && booking.start <= date && date < booking.end
+      );
+      const formatCalendarDate = date => new Date(`${date}T12:00:00`).toLocaleDateString('pt-BR', {
+        weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'
+      });
+      const isCalendarDateToday = date => date === localDateString(new Date());
+      const calendarStatus = date => {
+        const bookings = getCalendarBookings(date);
+        if (bookings.length) {
+          return isCalendarDateToday(date) && bookings.some(booking => booking.start === date)
+            ? 'checkin'
+            : 'reserved';
+        }
+        return maintenanceDates.includes(date) ? 'maintenance' : 'available';
+      };
+      const calendarStatusInfo = status => ({
+        available: ['Disponível', 'bg-surface-container-highest text-on-surface-variant'],
+        reserved: ['Reservado', 'bg-primary/20 text-primary'],
+        checkin: ['Check-in hoje', 'bg-secondary-fixed/20 text-secondary-fixed'],
+        maintenance: ['Manutenção', 'bg-amber-500/20 text-amber-300']
+      }[status]);
+      const renderReservationsCalendar = () => {
+        const grid = document.getElementById('reservationsCalendarDays');
+        const title = document.getElementById('reservationsCalendarMonth');
+        if (!grid || !title) return;
+        const hint = document.getElementById('reservationsCalendarHint');
+        if (hint) {
+          hint.textContent = reservationRangeStart && !reservationRangeEnd
+            ? `Entrada: ${formatCalendarDate(reservationRangeStart)}. Selecione a data de saída.`
+            : reservationRangeStart && reservationRangeEnd
+              ? `Período selecionado: ${formatCalendarDate(reservationRangeStart)} até ${formatCalendarDate(reservationRangeEnd)}.`
+              : 'Clique em uma data para definir a entrada e em outra para definir a saída.';
+        }
+
+        const year = calendarMonth.getFullYear();
+        const month = calendarMonth.getMonth();
+        const firstWeekday = new Date(year, month, 1).getDay();
+        const daysInMonth = new Date(year, month + 1, 0).getDate();
+        title.textContent = new Date(year, month, 1).toLocaleDateString('pt-BR', {
+          month: 'long', year: 'numeric'
+        });
+        grid.innerHTML = Array.from({ length: firstWeekday + daysInMonth }, (_, index) => {
+          const day = index - firstWeekday + 1;
+          if (day < 1) {
+            return '<div class="h-14 rounded-lg bg-surface-container-lowest/30" aria-hidden="true"></div>';
+          }
+          const date = localDateString(new Date(year, month, day));
+          const status = calendarStatus(date);
+          const bookings = getCalendarBookings(date);
+          const selected = date === selectedCalendarDate;
+          const inSelection = reservationRangeStart && reservationRangeEnd &&
+            reservationRangeStart <= date && date <= reservationRangeEnd;
+          const rangeEndpoint = date === reservationRangeStart || date === reservationRangeEnd;
+          const style = inSelection && status === 'available' ? 'bg-secondary-fixed/15 hover:bg-secondary-fixed/25' : {
+            available: 'bg-surface-container hover:bg-surface-container-high',
+            reserved: 'bg-primary/15 hover:bg-primary/25',
+            checkin: 'bg-secondary-fixed/20 hover:bg-secondary-fixed/30',
+            maintenance: 'bg-amber-500/10 hover:bg-amber-500/20'
+          }[status];
+          const guests = bookings.map(booking => booking.guest.trim().split(/\s+/)[0]).join(', ');
+          const detail = date === reservationRangeStart ? 'Entrada'
+            : date === reservationRangeEnd ? 'Saída'
+              : inSelection ? 'Estadia'
+                : status === 'checkin' ? `Check-in • ${guests}`
+            : bookings.length ? guests : calendarStatusInfo(status)[0];
+          const detailColor = inSelection ? 'text-secondary-fixed'
+            : status === 'reserved' ? 'text-primary'
+            : status === 'checkin' ? 'text-secondary-fixed'
+              : status === 'maintenance' ? 'text-amber-300' : 'text-outline';
+          const dotColor = status === 'available' ? 'bg-outline-variant'
+            : status === 'reserved' ? 'bg-primary'
+              : status === 'checkin' ? 'bg-secondary-fixed' : 'bg-amber-400';
+          return `<button type="button" data-home-calendar-date="${date}" aria-label="${escapeHtml(`${day} de ${title.textContent}, ${date === reservationRangeStart ? 'Entrada selecionada' : date === reservationRangeEnd ? 'Saída selecionada' : inSelection ? 'Dentro do período selecionado' : calendarStatusInfo(status)[0]}${bookings.length ? `: ${bookings.map(booking => booking.guest).join(', ')}` : ''}`)}" aria-pressed="${selected || rangeEndpoint}" class="cal-cell h-14 rounded-lg ${style} p-1 flex flex-col justify-between cursor-pointer transition-all ${rangeEndpoint ? 'ring-2 ring-secondary-fixed' : selected ? 'ring-2 ring-primary' : ''}">
+            <span class="flex w-full items-center justify-between"><span class="font-caption text-caption font-semibold text-on-surface">${day}</span><span class="h-1.5 w-1.5 rounded-full ${dotColor}"></span></span>
+            <span class="w-full truncate text-left font-caption text-caption ${detailColor}">${escapeHtml(detail)}</span>
+          </button>`;
+        }).join('');
+      };
+      const renderCalendarGrid = () => {
+        renderReservationsCalendar();
+        const grid = routePanel && routePanel.querySelector('#generalCalendarGrid');
+        const monthTitle = routePanel && routePanel.querySelector('#generalCalendarMonth');
+        if (!grid || !monthTitle) return;
+
+        const year = calendarMonth.getFullYear();
+        const month = calendarMonth.getMonth();
+        const firstWeekday = new Date(year, month, 1).getDay();
+        const daysInMonth = new Date(year, month + 1, 0).getDate();
+        const cellCount = Math.ceil((firstWeekday + daysInMonth) / 7) * 7;
+        monthTitle.textContent = new Date(year, month, 1).toLocaleDateString('pt-BR', {
+          month: 'long', year: 'numeric'
+        });
+        grid.innerHTML = Array.from({ length: cellCount }, (_, index) => {
+          const day = index - firstWeekday + 1;
+          if (day < 1 || day > daysInMonth) {
+            return '<div class="min-h-24 rounded-xl bg-surface-container-lowest/30 sm:min-h-28" aria-hidden="true"></div>';
+          }
+
+          const date = localDateString(new Date(year, month, day));
+          const status = calendarStatus(date);
+          const bookings = getCalendarBookings(date);
+          const selected = date === selectedCalendarDate;
+          const style = {
+            available: ['bg-surface-container hover:bg-surface-container-high border-outline-variant/30', 'Disponível', 'text-on-surface-variant'],
+            reserved: ['bg-primary/10 hover:bg-primary/15 border-primary/30', 'Reservada', 'text-primary'],
+            checkin: ['bg-secondary-fixed/15 hover:bg-secondary-fixed/20 border-secondary-fixed/50', 'Check-in hoje', 'text-secondary-fixed'],
+            maintenance: ['bg-amber-500/10 hover:bg-amber-500/15 border-amber-400/40', 'Manutenção', 'text-amber-300']
+          }[status];
+          const dayLabel = status === 'reserved' || status === 'checkin'
+            ? bookings.map(booking => booking.guest.trim().split(/\s+/)[0]).join(', ')
+            : style[1];
+          const detail = bookings.length > 1 ? `${dayLabel} +${bookings.length - 1}` : dayLabel;
+          const accessibleName = `${day} de ${monthTitle.textContent}, ${style[1]}${bookings.length ? `: ${bookings.map(booking => booking.guest).join(', ')}` : ''}`;
+          return `<button type="button" data-calendar-date="${date}" aria-label="${escapeHtml(accessibleName)}" aria-pressed="${selected}" class="min-h-24 rounded-xl border p-2 text-left transition-all sm:min-h-28 ${style[0]} ${selected ? 'ring-2 ring-primary ring-offset-2 ring-offset-background' : ''}">
+            <span class="flex items-center justify-between"><span class="text-sm font-bold text-on-surface">${day}</span><span class="h-2 w-2 rounded-full ${status === 'available' ? 'bg-outline-variant' : status === 'reserved' ? 'bg-primary' : status === 'checkin' ? 'bg-secondary-fixed' : 'bg-amber-400'}"></span></span>
+            <span class="mt-3 block truncate text-xs font-semibold ${style[2]}">${escapeHtml(detail)}</span>
+            ${bookings.length ? `<span class="mt-1 block truncate text-[10px] text-on-surface-variant">${bookings.length} reserva${bookings.length === 1 ? '' : 's'}</span>` : ''}
+          </button>`;
+        }).join('');
+      };
+      const renderCalendarSelection = () => {
+        const status = calendarStatus(selectedCalendarDate);
+        const bookings = getCalendarBookings(selectedCalendarDate);
+        if (inspectorDate) inspectorDate.textContent = formatCalendarDate(selectedCalendarDate);
+        if (inspectorStatus) {
+          inspectorStatus.textContent = bookings.length
+            ? `Reserva: ${bookings.map(booking => `${booking.guest} (#${booking.id})`).join(', ')}${status === 'checkin' ? ' • Check-in hoje' : ''}`
+            : status === 'maintenance' ? 'Data bloqueada para manutenção.' : 'Data disponível para reserva.';
+        }
+        if (inspectorBadge) {
+          const [label, classes] = calendarStatusInfo(status);
+          inspectorBadge.textContent = label;
+          inspectorBadge.className = `px-2.5 py-1 rounded-full font-caption text-caption font-bold ${classes}`;
+        }
+        if (!routePanel) return;
+        const dateLabel = routePanel.querySelector('#selectedCalendarDate');
+        const statusLabel = routePanel.querySelector('#selectedCalendarStatus');
+        const actionButton = routePanel.querySelector('#toggleMaintenanceButton');
+        if (dateLabel) dateLabel.textContent = formatCalendarDate(selectedCalendarDate);
+        if (statusLabel) {
+          if (bookings.length) {
+            statusLabel.textContent = `Reserva: ${bookings.map(booking => `${booking.guest} (#${booking.id})`).join(', ')}${status === 'checkin' ? ' • Check-in hoje' : ''}`;
+          } else if (status === 'maintenance') {
+            statusLabel.textContent = 'Este dia está bloqueado para manutenção.';
+          } else {
+            statusLabel.textContent = 'Este dia está disponível para reserva.';
+          }
+        }
+        if (actionButton) {
+          actionButton.textContent = status === 'maintenance' ? 'Liberar data' : 'Marcar manutenção';
+          actionButton.disabled = bookings.length > 0 || !maintenanceStorageAvailable;
+          actionButton.classList.toggle('opacity-50', actionButton.disabled);
+          actionButton.classList.toggle('cursor-not-allowed', actionButton.disabled);
+          actionButton.setAttribute('aria-label', `${actionButton.textContent} em ${formatCalendarDate(selectedCalendarDate)}`);
+        }
+      };
+      const navigateCalendar = action => {
+        if (action === 'today') {
+          const today = new Date();
+          calendarMonth = new Date(today.getFullYear(), today.getMonth(), 1);
+          selectedCalendarDate = localDateString(today);
+        } else {
+          const direction = action === 'next' ? 1 : -1;
+          calendarMonth = new Date(calendarMonth.getFullYear(), calendarMonth.getMonth() + direction, 1);
+          selectedCalendarDate = localDateString(calendarMonth);
+        }
+        renderCalendarGrid();
+        renderCalendarSelection();
+      };
+      const renderCalendarPage = () => {
+        routePanel.innerHTML = `<section class="flex flex-col gap-6">
+          <header class="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+            <div><p class="mb-2 text-xs font-semibold uppercase tracking-widest text-primary">Villa Verde • Gestão Rural</p><h1 class="text-3xl font-bold tracking-tight text-on-surface">Calendário Geral</h1><p class="mt-2 text-sm text-on-surface-variant">Agenda mensal de ocupação da chácara.</p></div>
+            <div class="flex flex-wrap items-center gap-2"><div class="flex h-11 items-center gap-2 rounded-xl bg-surface-container-low px-4 text-sm"><span class="material-symbols-outlined text-primary">cottage</span><span class="font-semibold text-on-surface">${escapeHtml(propertyName)}</span></div><button type="button" data-open-reservation class="inline-flex h-11 items-center justify-center gap-2 rounded-xl bg-primary-container px-5 text-sm font-semibold text-on-primary-container transition-colors hover:bg-secondary-container"><span class="material-symbols-outlined">add</span>Nova Reserva</button></div>
+          </header>
+          <section class="flex flex-col gap-5 rounded-2xl bg-surface-container-low p-4 sm:p-6">
+            <div class="flex flex-col gap-4 border-b border-outline-variant/30 pb-4 sm:flex-row sm:items-center sm:justify-between">
+              <div class="flex items-center gap-3"><span class="material-symbols-outlined text-2xl text-primary">calendar_month</span><h2 id="generalCalendarMonth" class="text-xl font-bold capitalize text-on-surface"></h2></div>
+              <div class="flex items-center gap-2"><button type="button" data-calendar-nav="prev" class="flex h-9 w-9 items-center justify-center rounded-lg bg-surface-container text-on-surface-variant transition-colors hover:bg-surface-container-high hover:text-on-surface" aria-label="Mês anterior"><span class="material-symbols-outlined">chevron_left</span></button><button type="button" data-calendar-nav="today" class="h-9 rounded-lg bg-surface-container px-3 text-sm font-semibold text-on-surface transition-colors hover:bg-surface-container-high">Hoje</button><button type="button" data-calendar-nav="next" class="flex h-9 w-9 items-center justify-center rounded-lg bg-surface-container text-on-surface-variant transition-colors hover:bg-surface-container-high hover:text-on-surface" aria-label="Próximo mês"><span class="material-symbols-outlined">chevron_right</span></button></div>
+            </div>
+            <div class="grid grid-cols-7 gap-1.5 text-center text-[10px] font-bold tracking-wide text-on-surface-variant sm:gap-2 sm:text-xs"><span>DOM</span><span>SEG</span><span>TER</span><span>QUA</span><span>QUI</span><span>SEX</span><span>SÁB</span></div>
+            <div id="generalCalendarGrid" class="grid grid-cols-7 gap-1.5 sm:gap-2"></div>
+            <div class="flex flex-wrap items-center gap-x-5 gap-y-2 border-t border-outline-variant/30 pt-4 text-xs text-on-surface-variant">
+              <span class="inline-flex items-center gap-2"><span class="h-2.5 w-2.5 rounded-full bg-outline-variant"></span>Disponível</span>
+              <span class="inline-flex items-center gap-2"><span class="h-2.5 w-2.5 rounded-full bg-primary"></span>Reservada</span>
+              <span class="inline-flex items-center gap-2"><span class="h-2.5 w-2.5 rounded-full bg-secondary-fixed"></span>Check-in hoje</span>
+              <span class="inline-flex items-center gap-2"><span class="h-2.5 w-2.5 rounded-full bg-amber-400"></span>Manutenção</span>
+            </div>
+          </section>
+          <section class="flex flex-col gap-3 rounded-xl bg-surface-container-low p-4 sm:flex-row sm:items-center sm:justify-between sm:p-5" aria-live="polite">
+            <div class="flex items-start gap-3"><span class="material-symbols-outlined mt-0.5 text-primary">event_note</span><div><p id="selectedCalendarDate" class="font-semibold capitalize text-on-surface"></p><p id="selectedCalendarStatus" class="mt-1 text-sm text-on-surface-variant"></p></div></div>
+            <button type="button" id="toggleMaintenanceButton" class="h-10 rounded-xl bg-surface-container px-4 text-sm font-semibold text-on-surface transition-colors hover:bg-surface-container-high disabled:opacity-50" aria-label="Marcar data para manutenção">Marcar manutenção</button>
+          </section>
+        </section>`;
+        renderCalendarGrid();
+        renderCalendarSelection();
+      };
+      renderCalendarGrid();
+      renderCalendarSelection();
+      const renderFinancePage = () => {
+        const monthStart = localDateString(new Date(new Date().getFullYear(), new Date().getMonth(), 1));
+        const monthEnd = localDateString(new Date(new Date().getFullYear(), new Date().getMonth() + 1, 1));
+        const activeBookings = savedBookings.filter(booking => !isCancelled(booking));
+        const receivedTotal = activeBookings.reduce((sum, booking) => sum + paymentInfo(booking).received, 0);
+        const receivableTotal = activeBookings.reduce((sum, booking) => sum + paymentInfo(booking).remaining, 0);
+        const monthTotal = activeBookings
+          .filter(booking => booking.start >= monthStart && booking.start < monthEnd)
+          .reduce((sum, booking) => sum + Number(booking.total), 0);
+        const filteredBookings = activeBookings.slice().reverse().filter(booking => {
+          const payment = paymentInfo(booking);
+          if (financeFilter === 'paid') return payment.paid;
+          if (financeFilter === 'signal') return payment.signal;
+          if (financeFilter === 'pending') return payment.pending;
+          return true;
+        });
+        const filters = [
+          ['all', 'Todos', activeBookings.length],
+          ['paid', 'Pagos 100%', activeBookings.filter(booking => paymentInfo(booking).paid).length],
+          ['signal', 'Sinal Confirmado', activeBookings.filter(booking => paymentInfo(booking).signal).length],
+          ['pending', 'Pendentes de Pagamento', activeBookings.filter(booking => paymentInfo(booking).pending).length]
+        ];
+        const rows = filteredBookings.map(booking => {
+          const payment = paymentInfo(booking);
+          const phone = booking.phone.replace(/\D/g, '');
+          const paymentClass = payment.paid
+            ? 'bg-primary/15 text-primary'
+            : payment.signal
+              ? 'bg-cyan-500/15 text-cyan-300'
+              : payment.pending
+                ? 'bg-amber-500/15 text-amber-300'
+                : 'bg-surface-container-highest text-on-surface-variant';
+          return `<tr class="border-b border-outline-variant/20 hover:bg-surface-container-high/50">
+            <td class="px-3 py-4 font-mono text-xs text-tertiary">#${escapeHtml(booking.id)}</td>
+            <td class="px-3 py-4"><span class="font-semibold text-on-surface">${escapeHtml(booking.guest.split(/\s+/)[0])}</span></td>
+            <td class="px-3 py-4 text-on-surface">${escapeHtml(money(Number(booking.total)))}</td>
+            <td class="px-3 py-4 text-on-surface">${escapeHtml(money(payment.received))}</td>
+            <td class="px-3 py-4"><span class="inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-xs font-semibold ${paymentClass}"><span class="h-1.5 w-1.5 rounded-full bg-current"></span>${escapeHtml(payment.label)}</span>${payment.remaining > 0 ? `<span class="mt-1 block text-xs text-on-surface-variant">Saldo: ${escapeHtml(money(payment.remaining))}</span>` : ''}</td>
+            <td class="px-3 py-4"><div class="flex items-center justify-end gap-2">
+              <button type="button" data-finance-charge="${escapeHtml(booking.id)}" ${!phone || payment.remaining <= 0 ? 'disabled' : ''} class="inline-flex h-9 items-center gap-1.5 rounded-lg bg-surface-container px-3 text-xs font-semibold text-on-surface-variant transition-colors hover:bg-surface-container-high disabled:cursor-not-allowed disabled:opacity-40" title="${phone ? 'Enviar cobrança pelo WhatsApp' : 'Telefone não informado'}"><span class="material-symbols-outlined text-base">send</span><span class="hidden sm:inline">Cobrar</span></button>
+              <button type="button" data-finance-confirm="${escapeHtml(booking.id)}" ${payment.remaining <= 0 ? 'disabled' : ''} class="inline-flex h-9 items-center gap-1.5 rounded-lg bg-primary-container px-3 text-xs font-semibold text-on-primary-container transition-colors hover:bg-secondary-container disabled:cursor-not-allowed disabled:opacity-40"><span class="material-symbols-outlined text-base">task_alt</span><span class="hidden sm:inline">Confirmar recebimento</span></button>
+              <button type="button" data-finance-cancel="${escapeHtml(booking.id)}" class="inline-flex h-9 items-center gap-1 rounded-lg bg-red-500/10 px-2.5 text-xs font-semibold text-red-300 transition-colors hover:bg-red-500/20" title="Cancelar reserva e remover do financeiro e calendário"><span class="material-symbols-outlined text-base">event_busy</span><span class="hidden sm:inline">Cancelar</span></button>
+            </div></td>
+          </tr>`;
+        }).join('');
+        routePanel.innerHTML = `<section class="flex flex-col gap-6">
+          <header class="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+            <div><p class="mb-2 text-xs font-semibold uppercase tracking-widest text-primary">Villa Verde • Gestão Rural</p><h1 class="text-3xl font-bold tracking-tight text-on-surface">Financeiro</h1><p class="mt-2 text-sm text-on-surface-variant">Entradas, sinais e valores pendentes das reservas.</p></div>
+            <div class="flex h-11 items-center gap-2 self-start rounded-xl bg-surface-container-low px-4 text-sm"><span class="material-symbols-outlined text-primary">cottage</span><span class="font-semibold text-on-surface">${escapeHtml(propertyName)}</span></div>
+          </header>
+          <div class="grid grid-cols-1 gap-4 md:grid-cols-3">
+            <article class="rounded-xl bg-surface-container-low p-5"><div class="flex items-center justify-between"><p class="text-xs font-semibold uppercase tracking-wider text-on-surface-variant">Total já recebido (sinais)</p><span class="material-symbols-outlined text-primary">account_balance_wallet</span></div><p class="mt-3 text-2xl font-bold text-on-surface">${escapeHtml(money(receivedTotal))}</p></article>
+            <article class="rounded-xl bg-surface-container-low p-5"><div class="flex items-center justify-between"><p class="text-xs font-semibold uppercase tracking-wider text-on-surface-variant">Valor a receber</p><span class="material-symbols-outlined text-amber-300">pending_actions</span></div><p class="mt-3 text-2xl font-bold text-on-surface">${escapeHtml(money(receivableTotal))}</p></article>
+            <article class="rounded-xl bg-surface-container-low p-5"><div class="flex items-center justify-between"><p class="text-xs font-semibold uppercase tracking-wider text-on-surface-variant">Faturamento total do mês</p><span class="material-symbols-outlined text-secondary-fixed">payments</span></div><p class="mt-3 text-2xl font-bold text-on-surface">${escapeHtml(money(monthTotal))}</p><p class="mt-1 text-xs capitalize text-on-surface-variant">${new Date().toLocaleDateString('pt-BR', { month: 'long', year: 'numeric' })}</p></article>
+          </div>
+          <section class="overflow-hidden rounded-2xl bg-surface-container-low">
+            <div class="flex flex-col gap-4 border-b border-outline-variant/30 p-4 sm:p-5">
+              <div><h2 class="font-title-sm text-title-sm font-bold text-on-surface">Controle de pagamentos</h2><p class="mt-1 text-xs text-on-surface-variant">Acompanhe valores recebidos e cobre os saldos em aberto. Reservas canceladas ficam no histórico, fora do financeiro e do calendário.</p></div>
+              <div class="flex flex-wrap gap-2" role="group" aria-label="Filtrar pagamentos">${filters.map(([key, label, count]) => `<button type="button" data-finance-filter="${key}" aria-pressed="${financeFilter === key}" class="rounded-full px-3 py-2 text-xs font-semibold transition-colors ${financeFilter === key ? 'bg-primary-container text-on-primary-container' : 'bg-surface-container text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface'}">${label} (${count})</button>`).join('')}</div>
+            </div>
+            <div class="overflow-x-auto"><table class="w-full min-w-[760px] text-left text-sm"><thead class="bg-surface-container/60 text-[10px] uppercase tracking-wider text-on-surface-variant"><tr><th class="px-3 py-3">Código</th><th class="px-3 py-3">Hóspede</th><th class="px-3 py-3">Valor Total</th><th class="px-3 py-3">Valor do Sinal</th><th class="px-3 py-3">Status do Pagamento</th><th class="px-3 py-3 text-right">Ações</th></tr></thead><tbody>${rows || `<tr><td class="px-3 py-10 text-center text-on-surface-variant" colspan="6">${activeBookings.length ? 'Nenhum pagamento corresponde a este filtro.' : savedBookings.length ? 'Não há reservas ativas no financeiro; as canceladas permanecem no histórico.' : 'Nenhuma reserva cadastrada. Os pagamentos aparecerão aqui após a primeira reserva.'}</td></tr>`}</tbody></table></div>
+          </section>
+        </section>`;
+      };
+
+      if (routePanel) {
+        routePanel.addEventListener('click', event => {
+          const paymentFilter = event.target.closest('[data-finance-filter]');
+          if (paymentFilter) {
+            financeFilter = paymentFilter.dataset.financeFilter;
+            renderFinancePage();
+            return;
+          }
+          const confirmPayment = event.target.closest('[data-finance-confirm]');
+          if (confirmPayment) {
+            const booking = savedBookings.find(item => item.id === confirmPayment.dataset.financeConfirm);
+            if (!booking || paymentInfo(booking).remaining <= 0) return;
+            openPaymentModal(booking);
+            return;
+          }
+          const charge = event.target.closest('[data-finance-charge]');
+          if (charge && !charge.disabled) {
+            const booking = savedBookings.find(item => item.id === charge.dataset.financeCharge);
+            if (!booking || !booking.phone.replace(/\D/g, '')) {
+              showMessage('Adicione um telefone de contato à reserva para enviar a cobrança.');
+              return;
+            }
+            const payment = paymentInfo(booking);
+            const message = encodeURIComponent(`Olá, ${booking.guest.split(/\s+/)[0]}! Segue o lembrete do saldo de ${money(payment.remaining)} referente à reserva ${booking.id} da Chácara Villa Verde.`);
+            window.open(`https://wa.me/${booking.phone.replace(/\D/g, '')}?text=${message}`, '_blank', 'noopener,noreferrer');
+            return;
+          }
+          const navButton = event.target.closest('[data-calendar-nav]');
+          if (navButton) {
+            navigateCalendar(navButton.dataset.calendarNav);
+            return;
+          }
+          const dateButton = event.target.closest('[data-calendar-date]');
+          if (dateButton) {
+            selectedCalendarDate = dateButton.dataset.calendarDate;
+            renderCalendarGrid();
+            renderCalendarSelection();
+            return;
+          }
+          if (event.target.closest('#toggleMaintenanceButton')) {
+            if (getCalendarBookings(selectedCalendarDate).length || !maintenanceStorageAvailable) return;
+            const wasMarked = maintenanceDates.includes(selectedCalendarDate);
+            const updatedDates = wasMarked
+              ? maintenanceDates.filter(date => date !== selectedCalendarDate)
+              : [...maintenanceDates, selectedCalendarDate];
+            try {
+              localStorage.setItem(maintenanceStorageKey, JSON.stringify(updatedDates));
+              maintenanceDates = updatedDates;
+              renderCalendarGrid();
+              renderCalendarSelection();
+              showMessage(wasMarked ? 'Data liberada.' : 'Data marcada para manutenção.');
+            } catch (error) {
+              showMessage(`Não foi possível salvar a manutenção: ${error.message}`);
+            }
+          }
+        });
+      }
+      const renderRoute = path => {
+        if (!routePanel || !dashboard) return;
+        const navItem = navItems.find(item => item.path === path) || navItems[0];
+        const route = navItem.path;
+        dashboard.classList.toggle('hidden', route !== 'reservas');
+        routePanel.classList.toggle('hidden', route === 'reservas');
+        if (route === 'reservas') {
+          renderCalendarGrid();
+          renderCalendarSelection();
+        }
+        navLinks.forEach(link => {
+          const active = link.dataset.path === route;
+          link.classList.toggle('bg-primary-container', active);
+          link.classList.toggle('text-on-primary-container', active);
+          link.classList.toggle('font-semibold', active);
+          link.classList.toggle('shadow-[0_0_20px_-2px_rgba(16,185,129,0.25)]', active);
+          link.classList.toggle('text-on-surface-variant', !active);
+          link.setAttribute('aria-current', active ? 'page' : 'false');
+        });
+        if (route === 'calendario-geral') {
+          renderCalendarPage();
+          return;
+        }
+        if (route === 'financeiro') {
+          renderFinancePage();
+          return;
+        }
+        const records = allRows().map(row => ({
+          id: row.cells[0]?.querySelector('.font-mono')?.textContent.trim().replace(/^#/, '') || '—',
+          guest: row.cells[1]?.querySelector('span.font-label-sm')?.textContent.trim().split(/\s+/)[0] || '—',
+          period: row.cells[2]?.querySelector('.font-label-sm')?.textContent.trim() || '—',
+          status: row.cells[4]?.textContent.trim() || '—',
+          total: row.querySelector('[data-real-value]')?.dataset.realValue || 'R$ 0,00'
+        }));
+        const visibleRecords = records.map(item => `<tr class="border-b border-outline-variant/30"><td class="px-3 py-3 font-mono text-tertiary">#${escapeHtml(item.id)}</td><td class="px-3 py-3">${escapeHtml(item.guest)}</td><td class="px-3 py-3">${escapeHtml(item.period)}</td><td class="px-3 py-3">${escapeHtml(item.status)}</td><td class="px-3 py-3 text-right">${escapeHtml(item.total)}</td></tr>`).join('');
+        const propertySummary = propertyName;
+        const titleMap = {
+          'calendario-geral': ['Calendário Geral', 'Acompanhe as reservas registradas e seus períodos de hospedagem.'],
+          financeiro: ['Financeiro', 'Acompanhamento dos valores das reservas cadastradas.'],
+          configuracoes: ['Configurações', 'Preferências e armazenamento deste painel neste navegador.']
+        };
+        const [title, description] = titleMap[route] || titleMap['calendario-geral'];
+        let content = '';
+        if (route === 'configuracoes') {
+          content = `<div class="rounded-xl bg-surface-container p-5"><h3 class="font-semibold">Persistência de dados</h3><p class="mt-2 text-sm text-on-surface-variant">${storageAvailable ? 'As novas reservas são armazenadas no LocalStorage deste navegador.' : 'O LocalStorage não está disponível nesta sessão.'}</p><p class="mt-3 text-sm text-on-surface-variant">Imóvel gerenciado: ${escapeHtml(propertyName)}</p></div>`;
+        } else {
+          content = `<div class="overflow-x-auto rounded-xl bg-surface-container"><table class="w-full text-left text-sm"><thead class="text-xs uppercase tracking-wider text-on-surface-variant"><tr><th class="px-3 py-3">Código</th><th class="px-3 py-3">Hóspede</th><th class="px-3 py-3">Período</th><th class="px-3 py-3">Status</th><th class="px-3 py-3 text-right">Valor</th></tr></thead><tbody>${visibleRecords || '<tr><td class="px-3 py-5 text-center text-on-surface-variant" colspan="5">Nenhuma reserva cadastrada.</td></tr>'}</tbody></table></div>`;
+        }
+        routePanel.innerHTML = `<section class="flex flex-col gap-6"><header class="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between"><div><p class="mb-2 text-xs font-semibold uppercase tracking-widest text-primary">Villa Verde • Gestão Rural</p><h1 class="text-3xl font-bold tracking-tight text-on-surface">${escapeHtml(title)}</h1><p class="mt-2 max-w-2xl text-sm text-on-surface-variant">${escapeHtml(description)}</p></div><button type="button" data-open-reservation class="inline-flex h-11 items-center justify-center gap-2 rounded-xl bg-primary-container px-5 text-sm font-semibold text-on-primary-container transition-colors hover:bg-secondary-container"><span class="material-symbols-outlined">add</span>+ Nova Reserva</button></header><div class="grid grid-cols-1 gap-4 sm:grid-cols-3"><article class="rounded-xl bg-surface-container-low p-5"><p class="text-xs uppercase tracking-wider text-on-surface-variant">Reservas registradas</p><p class="mt-2 text-2xl font-bold">${allRows().length}</p></article><article class="rounded-xl bg-surface-container-low p-5"><p class="text-xs uppercase tracking-wider text-on-surface-variant">Chácara</p><p class="mt-2 text-lg font-bold">${escapeHtml(propertySummary)}</p></article><article class="rounded-xl bg-surface-container-low p-5"><p class="text-xs uppercase tracking-wider text-on-surface-variant">Valor registrado</p><p class="mt-2 text-2xl font-bold">${escapeHtml(money(allRows().reduce((sum, row) => { const el = row.querySelector('[data-real-value]'); return sum + (el ? Number(el.dataset.realValue.replace(/[^\d,]/g, '').replace(',', '.')) || 0 : 0); }, 0)))}</p></article></div>${content}</section>`;
+      };
+      function navigateTo(path) {
+        renderRoute(path);
+      }
+      navLinks.forEach(link => link.addEventListener('click', event => {
+        event.preventDefault();
+        navigateTo(link.dataset.path);
+      }));
+    })();
+  </script>
+</div></main></div></body></html>
